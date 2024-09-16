@@ -1,4 +1,13 @@
-# API-2024.2
+<div align="center">
+  <h1>API-2024.2</h1>
+</div>
+
+
+<div align="center">
+  <h2>Projeto de IA Generativa</h2>
+</div>
+
+
 ##### <p align="center"> Projeto Integrador</p>
 <div align = "center">
  <img src="https://user-images.githubusercontent.com/90328117/161355339-d016f60b-e185-49da-a5de-6c21f1965449.png" style="width:80px;height:40px;">
