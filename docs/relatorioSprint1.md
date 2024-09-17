@@ -3,7 +3,7 @@
 ## 🎯 MVP
 
 O MVP da primeira entrega foi o desenvolvimento da IA capaz de monitorar a entrada e saída de pessoas dentro de RedZones e a exportação do Excel com os dados capturados.
- 
+  
 ## 📃 Backlog da Sprint
  
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
