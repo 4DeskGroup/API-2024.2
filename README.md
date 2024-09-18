@@ -31,6 +31,8 @@
 <p align="left"> Desenvolver uma IA capaz de analisar e gerar insights a partir de reviews de produtos de e-commerce, ajudando o departamento de compras corporativas a tomar decisões mais informadas na seleção e aquisição de produtos. A IA deve otimizar o processo de escolha de fornecedores e produtos, levando em consideração feedbacks de consumidores para área de compras de uma empresa. A utilização do usuário com a IA será voltado para avaliar a qualidade e aceitação de produtos com base em reviews, identificar tendências e preferências dos consumidores, comparar fornecedores com base em feedback de clientes.</p>
 </br>
 
+As branches e commits deste projeto aderem ao padrão definido pelo [Conventional Commits](https://conventionalcommits.org) e exemplos de uso estão disponíveis [neste repositório](https://github.com/iuricode/padroes-de-commits).
+
 <div name="backlog"></div> 
 
  # :bulb: Backlog
