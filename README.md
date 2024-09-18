@@ -1,3 +1,5 @@
+<div name="topo"></div>
+
 <div align="center">
   <h1>API-2024.2</h1>
 </div>
@@ -43,13 +45,35 @@
 | 9    | Baixa      | Tutorial em Vídeo<br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a plataforma de maneira eficiente. |      2      | 3      | RNF4                  |
 </br>
 
-## ⏳ Planejamento de entregas
 
- </Div>
-⬜ [SPRINT 1] - 09/09/2024 à 29/09/2024 - <a href="https://github.com/4DeskGroup/API-2024-1/tree/main/projeto/Sprint%201">Acesse a primeira entrega aqui</a></p>
-⬜ [SPRINT 2] - 07/10/2024 à 27/10/2024 - <a href="https://github.com/4DeskGroup/API-2024.1/blob/main/projeto/Sprint%202">Acesse a segunda entrega aqui</a></p>
-⬜ [SPRINT 3] - 04/11/2024 à 24/11/2024 - <a href="https://github.com/4DeskGroup/API-2024.1/tree/main/projeto/Sprint%203">Acesse a terceira entrega aqui</a></p>
+# 📑 Relatórios
+
+Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opção de acessar os relatórios ao clicar em 'Acessar relatório'.
+
+| Sprint |            Data         | Status |    Relatório      |
+|:------:|:-----------------------:|:-------:|:-----------------:|
+| 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.1/tree/main/projeto/Sprint%203">Acessar relatório</a> |
+| 02     | 07/10/2024 à 27/10/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.1/tree/main/projeto/Sprint%203">Acessar relatório</a> |
+| 03     | 04/11/2024 à 24/11/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.1/tree/main/projeto/Sprint%203">Acessar relatório</a> |
+
 </br>
+
+# 📌 Entregas
+<h3><strong>Sprint 1:</strong></h3>
+<h3><strong>Sprint 2:</strong></h3>
+<h3><strong>Sprint 3:</strong></h3>
+
+# 🛠️ Tecnologias
+
+As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execução do projeto:
+<div style="display: inline_block">
+ <img align="center" alt="Vue.js" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
+ <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+ <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+</div>
+
+
+
 
 
 # 🎓 Equipe
@@ -64,6 +88,15 @@
 |  Nicolas Bonifácio    |  Desenvolvedor       |<a href="https://github.com/Marih2210"><img src="https://user-images.githubusercontent.com/90328117/161353573-4c0e497a-b4fa-4f46-ade2-10b37360e2d2.jpg" class="media-object  img-responsive img-thumbnail"></a>                                                      |           <img src="https://avatars.githubusercontent.com/u/103084208?v=4" style="width:50px;height:50px;">                                         |
 |   Rafaela Vieira  |  Desenvolvedora       |<a href="https://github.com/RafaelaCabral"><img src="https://user-images.githubusercontent.com/90328117/161353573-4c0e497a-b4fa-4f46-ade2-10b37360e2d2.jpg" class="media-object  img-responsive img-thumbnail"></a>                                                          |           <img src="https://avatars.githubusercontent.com/u/50456594?v=4" style="width:50px;height:50px;">  
 |  Thyago Silveira       |  Desenvolvedor      | <a href="https://github.com/Thyaguixx"><img src="https://user-images.githubusercontent.com/90328117/161353573-4c0e497a-b4fa-4f46-ade2-10b37360e2d2.jpg" class="media-object  img-responsive img-thumbnail"></a>| <img src="https://avatars.githubusercontent.com/u/83200721?v=4" style="width:50px;height:50px;"> |
+
+
+
+ [Voltar ao topo](https://https://github.com/4DeskGroup/API-2024.2/edit/main/README.md#topo)
+
+
+
+
+
 
 
 
