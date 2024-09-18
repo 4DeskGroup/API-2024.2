@@ -48,9 +48,12 @@ O MVP da primeira entrega foi o desenvolvimento da IA capaz de monitorar a entra
 - AC5. Capacidade de lidar com perguntas específicas sobre reviews de produtos.
 
  
-## 🖥️ Protótipo 
+## 🖼️ Protótipo 
  
 ## 💾 Dados para IA
 
 Para essa entrega, os dados utilizados para construção do chat bot com IA foram a partir do repositório https://huggingface.co/datasets/ruanchaves/b2w-reviews01
+</br>
+
+## 🖥️ Entrega
  
