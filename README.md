@@ -21,15 +21,18 @@
 
 <div align="center">
  
-[O Projeto](https://github.com/4DeskGroup/API-2024-1/edit/main/README.md) • [Calendário Entrega Sprints](https://github.com/4DeskGroup/API-2024-1/edit/main/README.md#-planejamento-de-entregas) •
+ [Proposta do projeto](https://github.com/4DeskGroup/API-2024.2#proposta) • [Backlog](https://github.com/4DeskGroup/API-2024.2#backlog) • [Relatórios](https://github.com/4DeskGroup/API-2024.2#relatorios) • [Entregas](https://github.com/4DeskGroup/API-2024.2#entregas) • [Tecnologias](https://github.com/4DeskGroup/API-2024.2#tecnologias) • [Equipe](https://github.com/4DeskGroup/API-2024.2#equipe)
 </div>
+
+<div name="proposta"></div>
 
 # :dart: Proposta do projeto
 
 <p align="left"> Desenvolver uma IA capaz de analisar e gerar insights a partir de reviews de produtos de e-commerce, ajudando o departamento de compras corporativas a tomar decisões mais informadas na seleção e aquisição de produtos. A IA deve otimizar o processo de escolha de fornecedores e produtos, levando em consideração feedbacks de consumidores para área de compras de uma empresa. A utilização do usuário com a IA será voltado para avaliar a qualidade e aceitação de produtos com base em reviews, identificar tendências e preferências dos consumidores, comparar fornecedores com base em feedback de clientes.</p>
 </br>
 
- 
+<div name="backlog"></div> 
+
  # :bulb: Backlog
 
 | Rank | Prioridade | User Story                                                                                                                                                      | Estimativa | Sprint | Requisito do Parceiro |
@@ -46,6 +49,9 @@
 </br>
 
 
+
+<div name="relatorios"></div> 
+
 # 📑 Relatórios
 
 Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opção de acessar os relatórios ao clicar em 'Acessar relatório'.
@@ -53,15 +59,20 @@ Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opç
 | Sprint |            Data         | Status |    Relatório      |
 |:------:|:-----------------------:|:-------:|:-----------------:|
 | 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.2/blob/main/docs/relatorioSprint1.md">Acessar relatório</a> |
-| 02     | 07/10/2024 à 27/10/2024 |         | <a href="">Acessar relatório</a> |
-| 03     | 04/11/2024 à 24/11/2024 |         | <a href="">Acessar relatório</a> |
+| 02     | 07/10/2024 à 27/10/2024 |         |  |
+| 03     | 04/11/2024 à 24/11/2024 |         |  |
 
 </br>
+
+<div name="entregas"></div> 
 
 # 📌 Entregas
 <h3><strong>Sprint 1:</strong></h3>
 <h3><strong>Sprint 2:</strong></h3>
 <h3><strong>Sprint 3:</strong></h3>
+</br>
+
+<div name="tecnologias"></div> 
 
 # 🛠️ Tecnologias
 
@@ -71,10 +82,12 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
  <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
  <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
 </div>
+</br>
 
 
 
 
+<div name="equipe"></div> 
 
 # 🎓 Equipe
 
@@ -88,10 +101,10 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
 |  Nicolas Bonifácio    |  Desenvolvedor       |<a href="https://github.com/Marih2210"><img src="https://user-images.githubusercontent.com/90328117/161353573-4c0e497a-b4fa-4f46-ade2-10b37360e2d2.jpg" class="media-object  img-responsive img-thumbnail"></a>                                                      |           <img src="https://avatars.githubusercontent.com/u/103084208?v=4" style="width:50px;height:50px;">                                         |
 |   Rafaela Vieira  |  Desenvolvedora       |<a href="https://github.com/RafaelaCabral"><img src="https://user-images.githubusercontent.com/90328117/161353573-4c0e497a-b4fa-4f46-ade2-10b37360e2d2.jpg" class="media-object  img-responsive img-thumbnail"></a>                                                          |           <img src="https://avatars.githubusercontent.com/u/50456594?v=4" style="width:50px;height:50px;">  
 |  Thyago Silveira       |  Desenvolvedor      | <a href="https://github.com/Thyaguixx"><img src="https://user-images.githubusercontent.com/90328117/161353573-4c0e497a-b4fa-4f46-ade2-10b37360e2d2.jpg" class="media-object  img-responsive img-thumbnail"></a>| <img src="https://avatars.githubusercontent.com/u/83200721?v=4" style="width:50px;height:50px;"> |
+</br>
 
 
-
- [Voltar ao topo](https://github.com/4DeskGroup/API-2024.2#topo)
+ → [Voltar ao topo](https://github.com/4DeskGroup/API-2024.2#topo)
 
 
 
