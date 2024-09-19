@@ -33,7 +33,7 @@
 
 As branches e commits deste projeto aderem ao padrão definido pelo [Conventional Commits](https://conventionalcommits.org) e exemplos de uso estão disponíveis [neste repositório](https://github.com/iuricode/padroes-de-commits).
 </br>
-
+</br>
 <div name="backlog"></div> 
 
  # :bulb: Backlog
