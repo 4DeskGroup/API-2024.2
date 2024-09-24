@@ -61,7 +61,7 @@ Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opç
 
 | Sprint |            Data         | Status |    Relatório      |
 |:------:|:-----------------------:|:-------:|:-----------------:|
-| 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.2/blob/main/docs/relatorioSprint1.md">Acessar relatório</a> |
+| 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/relat%C3%B3rio-sprint-1.md">Acessar relatório</a> |
 | 02     | 07/10/2024 à 27/10/2024 |         |  |
 | 03     | 04/11/2024 à 24/11/2024 |         |  |
 
