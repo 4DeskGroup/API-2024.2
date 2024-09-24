@@ -53,19 +53,7 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 
 
 
-<div name="relatorios"></div> 
 
-# 📑 Relatórios
-
-Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opção de acessar os relatórios ao clicar em 'Acessar relatório'.
-
-| Sprint |            Data         | Status |    Relatório      |
-|:------:|:-----------------------:|:-------:|:-----------------:|
-| 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/relat%C3%B3rio-sprint-1.md">Acessar relatório</a> |
-| 02     | 07/10/2024 à 27/10/2024 |         |  |
-| 03     | 04/11/2024 à 24/11/2024 |         |  |
-
-</br>
 
 <div name="entregas"></div> 
 
@@ -174,9 +162,23 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
  <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
  <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
 </div>
+
 </br>
 
 
+<div name="relatorios"></div> 
+
+# 📑 Relatórios
+
+Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opção de acessar os relatórios ao clicar em 'Acessar relatório'.
+
+| Sprint |            Data         | Status |    Relatório      |
+|:------:|:-----------------------:|:-------:|:-----------------:|
+| 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/relat%C3%B3rio-sprint-1.md">Acessar relatório</a> |
+| 02     | 07/10/2024 à 27/10/2024 |         |  |
+| 03     | 04/11/2024 à 24/11/2024 |         |  |
+
+</br>
 
 
 <div name="equipe"></div> 
