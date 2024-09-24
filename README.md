@@ -70,9 +70,42 @@ Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opç
 <div name="entregas"></div> 
 
 # 📌 Entregas
-<h3><strong>Sprint 1:</strong></h3>
-<h3><strong>Sprint 2:</strong></h3>
-<h3><strong>Sprint 3:</strong></h3>
+
+<details>
+<summary> <strong>Sprint 1:</strong> </summary>
+
+Aqui está o conteúdo que será mostrado quando expandido. Você pode colocar texto, listas, links, etc.
+
+- Item 1
+- Item 2
+- Item 3
+
+</details>
+
+
+<details>
+<summary> <strong>Sprint 2:</strong> </summary>
+
+Aqui está o conteúdo que será mostrado quando expandido. Você pode colocar texto, listas, links, etc.
+
+- Item 1
+- Item 2
+- Item 3
+
+</details>
+
+
+<details>
+<summary> <strong>Sprint 3:</strong> </summary>
+
+Aqui está o conteúdo que será mostrado quando expandido. Você pode colocar texto, listas, links, etc.
+
+- Item 1
+- Item 2
+- Item 3
+
+</details>
+
 </br>
 
 <div name="tecnologias"></div> 
