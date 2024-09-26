@@ -60,7 +60,7 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 # 📌 Entregas
 
 <details>
-<summary> <strong>Sprint 1:</strong> </summary>
+<summary> <strong>Sprint 1</strong> </summary>
   
 ## 🎯 MVP
 
@@ -123,30 +123,6 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 ## 🖥️ Entrega
  
 </br>
-
-</details>
-
-
-<details>
-<summary> <strong>Sprint 2:</strong> </summary>
-
-Aqui está o conteúdo que será mostrado quando expandido. Você pode colocar texto, listas, links, etc.
-
-- Item 1
-- Item 2
-- Item 3
-
-</details>
-
-
-<details>
-<summary> <strong>Sprint 3:</strong> </summary>
-
-Aqui está o conteúdo que será mostrado quando expandido. Você pode colocar texto, listas, links, etc.
-
-- Item 1
-- Item 2
-- Item 3
 
 </details>
 
