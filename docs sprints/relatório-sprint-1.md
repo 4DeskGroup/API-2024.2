@@ -57,3 +57,4 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 
 ## 🖥️ Entrega
  
+![Meu GIF](https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/sprint-1.gif)
