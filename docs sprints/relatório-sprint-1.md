@@ -60,4 +60,5 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 ![Meu GIF](https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/sprint-1.gif)
 
 ### Link do vídeo no youtube
-[Assista ao vídeo da entrega no YouTube](https://www.youtube.com/watch?v=SeuVideoID)
+[Assista ao vídeo da entrega no YouTube](https://youtu.be/MjZo2yKE-Xw)
+
