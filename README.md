@@ -134,9 +134,10 @@ Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opç
 <details>
 <summary> <strong>Sprint 1</strong> </summary>
   
+
 ## 🎯 MVP
 
-O MVP da primeira entrega foi o desenvolvimento da IA capaz de monitorar a entrada e saída de pessoas dentro de RedZones e a exportação do Excel com os dados capturados.
+O MVP da primeira entrega foi o desenvolvimento da IA capaz de receber inputs de perguntas e responder perguntas básicas sobre recomendações de produtos, com tratamento de dados para evitar respostas e informações errôneas.
   
 ## 📃 Backlog da Sprint
  
