@@ -21,7 +21,7 @@
 
 <div align="center">
  
- [Informações e Proposta do projeto](https://github.com/4DeskGroup/API-2024.2#proposta) • [Backlog](https://github.com/4DeskGroup/API-2024.2#backlog) • [Relatórios](https://github.com/4DeskGroup/API-2024.2#relatorios) • [Entregas](https://github.com/4DeskGroup/API-2024.2#entregas) • [Tecnologias](https://github.com/4DeskGroup/API-2024.2#tecnologias) • [Equipe](https://github.com/4DeskGroup/API-2024.2#equipe)
+ [Informações e Proposta do projeto](https://github.com/4DeskGroup/API-2024.2#proposta) • [Backlog](https://github.com/4DeskGroup/API-2024.2#backlog) • [Entregas](https://github.com/4DeskGroup/API-2024.2#entregas) • [Tecnologias](https://github.com/4DeskGroup/API-2024.2#tecnologias) • [Equipe](https://github.com/4DeskGroup/API-2024.2#equipe)
 </div>
 
 <div name="proposta"></div>
@@ -112,20 +112,6 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
 
 </br>
 
-
-<div name="relatorios"></div> 
-
-# 📑 Relatórios
-
-Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opção de acessar os relatórios ao clicar em 'Acessar relatório'.
-
-| Sprint |            Data         | Status |    Relatório      |
-|:------:|:-----------------------:|:-------:|:-----------------:|
-| 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/relat%C3%B3rio-sprint-1.md">Acessar relatório</a> |
-| 02     | 07/10/2024 à 27/10/2024 |         |  |
-| 03     | 04/11/2024 à 24/11/2024 |         |  |
-
-</br>
 
 <div name="entregas"></div> 
 
