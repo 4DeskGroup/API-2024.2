@@ -40,40 +40,34 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 
 #### RF1:
 
-•	O chatbot deve permitir perguntas sobre assuntos gerais.</br>
-•	O sistema deve fornecer respostas básicas e compreensíveis.</br>
+•	O chatbot deve responder perguntas sobre especificações de produtos que tiveram reviews e informações de compradores anteriores, que permitam o usuário saber a qualidade do produto de acordo com os consumidores.</br>
+• Os usuários podem obter informações detalhadas e diretas sobre produtos, ajudando na tomada de decisão para comprar itens com melhor custo-benefício para a empresa.</br>
 
 #### RF2:
 
-•	O chatbot deve responder perguntas sobre análises de produtos que tiveram reviews e informações de compradores anteriores.</br>
-• Os usuários podem obter informações detalhadas e diretas sobre produtos, ajudando na tomada de decisão para comprar itens com melhor custo-benefício para a empresa.</br>
+•	O chatbot deve fornecer respostas bem direcionadas e em linguagem natural com detalhes específicos e claros sobre informações de categorias de produtos mencionadas pelo usuário. Assim, o usuário pode pedir sugestões de produtos para o chat de acordo com as avaliações dos consumidores de forma concisa.</br>
+•	Permite acesso à informações precisas e relevantes, facilitando a comparação e escolha de produtos para o setor de compras de empresas, garantindo informações confiáveis e embasadas.</br>
+•	Melhoria das respostas para perguntas sobre compras de produtos para que forneça respostas mais ricas, confiáveis e informativas sobre os produtos mencionados pelo usuário.</br>
 
 #### RF3:
-
-•	O chatbot deve fornecer respostas bem direcionadas e respostas em linguagem natural com detalhes específicos e claros sobre informações de categorias de produtos mencionadas pelo usuário.</br>
-•	Permite acesso à informações precisas e relevantes, facilitando a comparação e escolha de produtos para o setor de compras de empresas, garantindo informações confiáveis e embasadas.</br>
-•	Melhoria das respostas para perguntas sobre compras de produtos para que forneça respostas mais ricas, confiáveis e informativas sobre produtos.</br>
-
-#### RF4:
 
 •	O sistema deve identificar e classificar o sentimento das análises (positivo, neutro, negativo) de acordo com a dúvida do usuário do setor de compras da empresa, como:
   •	Descrição de sentimentos e opiniões agrupados por produto.
   •	Visualização clara das tendências de opinião.
   •	Comparação entre dois ou mais produtos com o mesmo propósito, mostrando os prós e contras de cada um e qual pode ser melhor para uma circunstância específica.
 •	Respostas que ajudam a entender a percepção geral dos consumidores, influenciando decisões de compra.
-
-#### RF5:
-
 •	O sistema deve gerar recomendações baseadas em análises positivas de produtos para facilitar a escolha de produtos de alta qualidade, baseando-se na opinião dos consumidores.</br>
-•	O sistema deve fornecer respostas como lista de produtos recomendados com base em reviews permitindo visualizar e entender detalhes dos produtos recomendados.</br>
+•	O sistema deve fornecer respostas como opções de produtos recomendados com base em reviews permitindo visualizar e entender detalhes dos produtos recomendados.</br>
 
-#### RF6:
+#### RF4:
 
-•	O sistema deve apresentar uma classificação dos produtos (muito bom, bom, neutro, ruim) ajudando a priorizar produtos que são mais bem avaliados, tornando o processo de compra mais eficiente e entender qual a motivação por trás de cada nota, com detalhes claros.</br>
-•	Visualização clara das classificações dos produtos.</br>
-•	Sistema fornece respostas que permite o usuário entender produtos por categoria de avaliação.</br>
+•	Sistema fornece respostas que permite o usuário visualizar produtos por categoria de avaliação quando o usuário pedir sugestão de produtos sem especificar marcas.</br>
 
 #### RF7:
+
+•	O sistema utiliza o histórico de interações anteriores para responder às novas perguntas do usuário de forma a manter a coerência com as informações fornecidas previamente e seguir uma linha de raciocínio estabelecida. Isso ajuda a garantir respostas mais precisas e personalizadas, levando em consideração as preferências e os contextos já mencionados pelo usuário.
+
+#### RF6:
 
 •	A interface deve ser fácil de navegar e interagir, proporcionando uma experiência agradável, facilitando a interação com o chatbot.</br>
 •	Design intuitivo com botões de navegação.</br>
@@ -85,15 +79,14 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 
 | Rank | Prioridade | User Story                                                                                                                                                      | Estimativa | Sprint | Requisito do Parceiro |
 |:----:|:----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:------:|:---------------------:|
-| 1    | Alta       | Criação da Interface de Chatbot básica<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas sobre assuntos gerais e receber respostas básicas para minhas perguntas. | 21         | 1      | RNF2, RF1                 |
-| 2    | Alta       | Criação da Interface de Chatbot para reviews - Implementação do RAG/FAISS<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural com dados crus. | 21         | 1      | RNF2, RF2              |
-| 3    | Alta       | Criação da Interface de Chatbot para reviews - Base de dados refinada<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados. | 25         | 1      | RNF1, RNF2, RF3                   |
-| 4    | Média      | Análise de Sentimento para Comparação de Produtos<br>Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra. | 13         | 2      | RNF1, RNF2, RF4                   |
-| 5    | Média      | Recomendações de Produtos<br>Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir. | 13         | 2      | RNF1, RNF2, RF5                   |
-| 6    | Média      | Histórico de Conversa<br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. | 13         | 2      |                             |
-| 7    | Média      | Implementação da interface front-end<br>Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chat bot. | 21         | 2      | RNF3, RF7            |
-| 8    | Baixa      | Refinamento da interface front-end<br>Como um usuário final, quero visualizar uma interface de fácil e intuitiva navegação para que eu tenha uma experiência agradável.                                                                                                                            | 20         | 3      | RNF3, RF7            |
-| 9    | Baixa      | Tutorial em Vídeo<br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a plataforma de maneira eficiente. | 2          | 3      | RNF4                  |
+| 1    | Alta       | Criação da Interface de Chatbot para reviews - Implementação do RAG/FAISS<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural com dados crus. | 21         | 1      | RNF2, RF1              |
+| 2    | Alta       | Criação da Interface de Chatbot para reviews - Base de dados refinada<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados. | 25         | 1      | RNF1, RNF2, RF3                   |
+| 3    | Média      | Análise de Sentimento para Comparação de Produtos<br>Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra. | 13         | 2      | RNF1, RNF2, RF3                 |
+| 4    | Média      | Recomendações de Produtos<br>Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir. | 13         | 2      | RNF1, RNF4               |
+| 5    | Média      | Histórico de Conversa<br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. | 13         | 2      |               RF5              |
+| 6    | Média      | Implementação da interface front-end<br>Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chat bot. | 21         | 2      | RNF3, RF6            |
+| 7    | Baixa      | Refinamento da interface front-end<br>Como um usuário final, quero visualizar uma interface de fácil e intuitiva navegação para que eu tenha uma experiência agradável.                                                                                                                            | 20         | 3      | RNF3, RF6            |
+| 8    | Baixa      | Tutorial em Vídeo<br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a plataforma de maneira eficiente. | 2          | 3      | RNF4                  |
 
 
 
