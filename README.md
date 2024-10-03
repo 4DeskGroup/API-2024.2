@@ -63,7 +63,7 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 
 •	Sistema fornece respostas que permite o usuário visualizar produtos por categoria de avaliação quando o usuário pedir sugestão de produtos sem especificar marcas.</br>
 
-#### RF7:
+#### RF5:
 
 •	O sistema utiliza o histórico de interações anteriores para responder às novas perguntas do usuário de forma a manter a coerência com as informações fornecidas previamente e seguir uma linha de raciocínio estabelecida. Isso ajuda a garantir respostas mais precisas e personalizadas, levando em consideração as preferências e os contextos já mencionados pelo usuário.
 
