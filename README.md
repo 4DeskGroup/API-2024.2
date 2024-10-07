@@ -187,6 +187,98 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 </details>
 
 
+
+<details>
+<summary> <strong>Sprint 2</strong> </summary>
+  
+
+## 🎯 MVP
+
+O MVP da segunda entrega foi o desenvolvimento da IA capaz de analisar e identificar o sentimento nas reviews de produtos, proporcionando ao funcionário do departamento de compras uma compreensão clara da opinião geral dos consumidores. Além disso, a IA deve oferecer recomendações de produtos baseadas nessa análise, possibilitando decisões de compra mais embasadas. A interação com um chatbot, que utiliza um banco de dados de reviews e um histórico de perguntas e respostas, facilitará a obtenção de informações específicas. Por fim, a interface de navegação será intuitiva, garantindo uma experiência de uso eficiente e acessível.
+  
+## 📃 Backlog da Sprint
+ 
+| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
+|------|:----------:|------------|:----------:|:------:|-----------|
+| 01   | Média      | Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra. | 13         | 02     | RNF1, RNF2, RF3      |
+| 02   | Média      | Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir. | 13         | 02     | RNF1, RNF4      |
+| 03   | Média      | Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. | 13         | 02     | RF5      |
+| 04   | Média      | Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chatbot. | 21         | 02     | RNF3, RF6      |
+
+</br>
+
+## 📌 DOR
+ 
+### 📄 User Stories e Critérios de Aceitação
+ 
+**US #1:**  Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra.
+ 
+**Critérios de aceitação:**
+ 
+- AC1. Classificação dos reviews em positivo, neutro ou negativo. Exemplo: Pergunta: "O Notebook da marca X e modelo Y é bom?" Resposta: "Ele possuí a maioria das avaliações positivas, com destaque em X,Y,Z"
+- AC2. Resposta clara e intuitiva.
+- AC3. Funciona para diferentes categorias de produtos.
+- AC4. Pelo menos 3 produtos de marcas distintas recomendados por consulta. Exemplo: Pergunta: "Me recomende um notebook para jogos" Resposta: "Notebook X, Notebook Y, Notebook Z"
+- AC5. Recomendações personalizadas com base em popularidade e nota.
+</br>
+
+**US #2:** Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir.
+ 
+**Critérios de aceitação:**
+
+- AC1. Comparação de pelo menos 3 produtos similares. Exemplo: Pergunta: "Qual notebook tem um melhor custo benefício?" Resposta: "Notebook X (tais beneficios), Notebook Y (tais beneficios), Notebook Z (tais beneficios)"
+- AC2. Comparações incluem nota média, pontos fortes e fracos e preço.
+- AC3. Visualização lado a lado dos produtos.
+- AC4. Filtragem por categorias ou características específicas.
+- AC5. Comparação feita em menos de 3 segundos.
+</br>
+
+**US #3:** Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente.
+ 
+**Critérios de aceitação:**
+
+- AC1. Quando o usuário fizer uma pergunta no chat, sua pergunta deve ser salva no histórico da conversa
+- AC2. A pergunta salva no histórico pode ser usada posteriormente como referência numa próxima pergunta para obter respostas mais precisas e dentro do contexto mencionado previamente.
+- AC3. O chat deve considerar todas as perguntas feitas pelo usuário para contextualizar suas próximas respostas.
+
+</br>
+
+**US #4:** Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chatbot.
+ 
+**Critérios de aceitação:**
+
+- AC1. O usuário deve visualizar uma interface gráfica composta por uma unica tela 
+- AC2. A interface deve ser composta por retângulos de texto ao lado direito para cada pergunta e lado esquerdo para respostas
+- AC3. A interface deve conter um campo de input na parte inferior da tela para digitar perguntas
+- AC4. A interface deve conter um botão para enviar a pergunta para o chat ler o que foi escrito.
+
+ 
+</br>
+ 
+## 💾 Dados para IA
+
+Para essa entrega, os dados utilizados para construção do chat bot com IA foram a partir do repositório https://huggingface.co/datasets/ruanchaves/b2w-reviews01
+
+</br>
+
+## 🖥️ Entrega
+ 
+![Meu GIF]("")
+
+### Link do vídeo no youtube
+[Assista ao vídeo da entrega no YouTube]("")
+ 
+</br>
+
+</details>
+
+
+
+
+
+
+
+
 <div name="equipe"></div> 
 
 # 🎓 Equipe
