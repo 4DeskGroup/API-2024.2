@@ -123,8 +123,8 @@ O MVP da primeira entrega foi o desenvolvimento da IA capaz de receber inputs de
  
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
 |------|------------|------------|------------|--------|-----------|
-| 01   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as reviews e notas de produtos em linguagem natural com dados crus. | 21         | 01     | RF-2      |
-| 02   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados.| 25         | 01     | RF-1 e RF-2      |
+| 01   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as reviews e notas de produtos em linguagem natural com dados crus. | 21         | 01     | RF1     |
+| 02   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados.| 25         | 01     | RF1      |
 ## 📌 DOR
  
 ### 📄 User Stories e Critérios de Aceitação
@@ -195,10 +195,10 @@ O MVP da segunda entrega foi o desenvolvimento da IA capaz de analisar e identif
  
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
 |------|:----------:|------------|:----------:|:------:|-----------|
-| 01   | Média      | Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra. | 13         | 02     | RNF1, RNF2, RF3      |
-| 02   | Média      | Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir. | 13         | 02     | RNF1, RNF4      |
-| 03   | Média      | Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. | 13         | 02     | RF5      |
-| 04   | Média      | Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chatbot. | 21         | 02     | RNF3, RF6      |
+| 01   | Média      | Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra. | 13         | 02     | RF3, RF4      |
+| 02   | Média      | Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir. | 13         | 02     | RF2, RF4      |
+| 03   | Média      | Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. | 13         | 02     | RF1, RF4      |
+| 04   | Média      | Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chatbot. | 21         | 02     | RF1, RF2      |
 
 </br>
 
