@@ -37,43 +37,39 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 <div name="backlog"></div> 
 
  # 📑 Requisitos Funcionais
-
-#### RF1:
-
-•	O chatbot deve responder perguntas sobre especificações de produtos que tiveram reviews e informações de compradores anteriores, que permitam o usuário saber a qualidade do produto de acordo com os consumidores.</br>
-• Os usuários podem obter informações detalhadas e diretas sobre produtos, ajudando na tomada de decisão para comprar itens com melhor custo-benefício para a empresa.</br>
-
-#### RF2:
-
-•	O chatbot deve fornecer respostas bem direcionadas e em linguagem natural com detalhes específicos e claros sobre informações de categorias de produtos mencionadas pelo usuário. Assim, o usuário pode pedir sugestões de produtos para o chat de acordo com as avaliações dos consumidores de forma concisa.</br>
-•	Permite acesso à informações precisas e relevantes, facilitando a comparação e escolha de produtos para o setor de compras de empresas, garantindo informações confiáveis e embasadas.</br>
-•	Melhoria das respostas para perguntas sobre compras de produtos para que forneça respostas mais ricas, confiáveis e informativas sobre os produtos mencionados pelo usuário.</br>
-
-#### RF3:
-
-•	O sistema deve identificar e classificar o sentimento das análises (positivo, neutro, negativo) de acordo com a dúvida do usuário do setor de compras da empresa, como:
-  •	Descrição de sentimentos e opiniões agrupados por produto.
-  •	Visualização clara das tendências de opinião.
-  •	Comparação entre dois ou mais produtos com o mesmo propósito, mostrando os prós e contras de cada um e qual pode ser melhor para uma circunstância específica.
-•	Respostas que ajudam a entender a percepção geral dos consumidores, influenciando decisões de compra.
-•	O sistema deve gerar recomendações baseadas em análises positivas de produtos para facilitar a escolha de produtos de alta qualidade, baseando-se na opinião dos consumidores.</br>
-•	O sistema deve fornecer respostas como opções de produtos recomendados com base em reviews permitindo visualizar e entender detalhes dos produtos recomendados.</br>
-
-#### RF4:
-
-•	Sistema fornece respostas que permite o usuário visualizar produtos por categoria de avaliação quando o usuário pedir sugestão de produtos sem especificar marcas.</br>
-
-#### RF5:
-
-•	O sistema utiliza o histórico de interações anteriores para responder às novas perguntas do usuário de forma a manter a coerência com as informações fornecidas previamente e seguir uma linha de raciocínio estabelecida. Isso ajuda a garantir respostas mais precisas e personalizadas, levando em consideração as preferências e os contextos já mencionados pelo usuário.
-
-#### RF6:
-
-•	A interface deve ser fácil de navegar e interagir, proporcionando uma experiência agradável, facilitando a interação com o chatbot.</br>
-•	Design intuitivo com botões de navegação.</br>
-•	Layout limpo e organizado.</br>
-•	Elementos visuais que guiam o usuário durante a navegação.
-
+ 
+**RF1 - Especificações de Produtos a partir de Reviews:** </br>
+• O sistema deve extrair informações detalhadas de avaliações e comentários feitos por consumidores, destacando aspectos importantes, como qualidade, desempenho e características do produto especificado pelo usuário. Essas informações ajudarão a entender a experiência de outros compradores e a tomar decisões informadas.
+ 
+**RF2 - Sugestões de Produtos, por categoria inclusive:** </br>
+• O sistema deve ser capaz de sugerir produtos dentro de categorias especificadas pelo usuário. Isso permite que o usuário receba recomendações personalizadas, mesmo sem especificar um produto ou marca exata.
+ 
+**RF3 - Comparações de Produtos, levando em conta custo-benefício:** </br>
+• O sistema deve comparar produtos com base em critérios como desempenho, qualidade, preço e feedback dos consumidores. Ele fornecerá um resumo das vantagens e desvantagens de cada produto, ajudando o usuário a escolher a melhor opção de acordo com o orçamento e a necessidade.
+ 
+**RF4 - Análise de Sentimento a partir de Reviews:** </br>
+• O sistema deve analisar as avaliações dos consumidores e identificar o sentimento predominante (positivo, negativo ou neutro) em relação a um produto., auxiliando na percepção da qualidade do mesmo.
+ 
+**RF5 - Análise de Tendências de Opinião:** </br>
+• O sistema identifica tendências e similaridades de padrões nas opiniões dos consumidores sobre produtos, oferecendo insights para decisões de compra.
+</br>
+</br>
+ 
+ # 💻 Requisitos Não Funcionais
+ 
+**RNF1 - BD Vetorial ChromaDB, FAISS ou outro:** </br>
+• O sistema deve utilizar um banco de dados vetorial, como ChromaDB ou FAISS, para consultas eficientes.
+ 
+**RNF2 - Datasets de uso público do Huggingface:** </br>
+• O sistema deve usar modelos de dataset disponíveis publicamente no Huggingface para busca do dataset.
+ 
+**RNF3 - Framework Langchain:** </br>
+• O sistema deve ser desenvolvido usando o framework Langchain para integração com modelos e bases de dados.
+ 
+**RNF4 - Vídeo-tutorial:** </br>
+• O sistema deve incluir um vídeo-tutorial para facilitar a compreensão de seu uso e funcionalidades.
+</br>
+</br>
 
  # :bulb: Backlog
 
