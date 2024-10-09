@@ -195,10 +195,10 @@ O MVP da segunda entrega foi o desenvolvimento da IA capaz de analisar e identif
  
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
 |------|:----------:|------------|:----------:|:------:|-----------|
-| 01   | Média      | Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra. | 13         | 02     | RF3, RF4      |
-| 02   | Média      | Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir. | 13         | 02     | RF2, RF4      |
-| 03   | Média      | Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. | 13         | 02     | RF1, RF4      |
-| 04   | Média      | Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chatbot. | 21         | 02     | RF1, RF2      |
+| 03   | Média      | Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, para que eu possa entender a opinião geral dos consumidores sobre um produto e assim priorizar as melhores opções de compra. | 13         | 02     | RF3, RF4      |
+| 04   | Média      | Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir. | 13         | 02     | RF2, RF4      |
+| 05   | Média      | Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. | 13         | 02     | RF1, RF4      |
+| 06   | Média      | Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chatbot. | 21         | 02     | RF1, RF2      |
 
 </br>
 
