@@ -39,19 +39,132 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
  # 📑 Requisitos Funcionais
  
 **RF1 - Especificações de Produtos a partir de Reviews:** </br>
-• O sistema deve extrair informações detalhadas de avaliações e comentários feitos por consumidores, destacando aspectos importantes, como qualidade, desempenho e características do produto especificado pelo usuário. Essas informações ajudarão a entender a experiência de outros compradores e a tomar decisões informadas.
+• O sistema deve extrair informações detalhadas de avaliações e comentários feitos por consumidores, destacando aspectos importantes, como qualidade, desempenho e características do produto especificado pelo usuário. Essas informações ajudarão a entender a experiência de outros compradores e a tomar decisões informadas.  </br>
+
+• Usabilidade:  </br>
+o Pergunta: Quais características a Cadeira de Escritório Dot All Black mais se destacam nas avaliações?  </br>
+o Resposta esperada:  </br>
+  o Características da Cadeira de Escritório Dot All Black  </br>
+    ▪ Giratória: Facilita a movimentação e o ajuste de posição.  </br>
+    ▪ Rodízios: Permite fácil deslocamento no ambiente de trabalho.  </br>
+    ▪ Laminada: Oferece durabilidade e resistência a riscos. </br>
+    ▪ Corino preto: Confere um toque de elegância e estilo. </br>
+  o Esta cadeira é recomendada para usuários que buscam: </br>
+    ▪ Conforto e ajuste de posição </br>
+    ▪ Facilidade de movimentação </br>
+    ▪ Design moderno e elegante </br>
  
 **RF2 - Sugestões de Produtos, por categoria inclusive:** </br>
-• O sistema deve ser capaz de sugerir produtos dentro de categorias especificadas pelo usuário. Isso permite que o usuário receba recomendações personalizadas, mesmo sem especificar um produto ou marca exata.
+• O sistema deve ser capaz de sugerir produtos dentro de categorias especificadas pelo usuário. Isso permite que o usuário receba recomendações personalizadas, mesmo sem especificar um produto ou marca exata. </br>
+• Usabilidade: </br>
+o Pergunta: Sou um profissional na parte de design. Quais opções de notebook são recomendadas para profissionais de design gráfico? </br>
+o Resposta esperada: </br>
+  o Recomendação: Notebook Dell Inspiron 15 3000 </br>
+  o Justificativa: </br>
+    o Avaliação positiva: Possui avaliação de 4, indicando que os usuários estão satisfeitos com o produto. </br>
+    o Características adequadas: Conta com tela de 15,6 polegadas, processador Intel Core i5 e 8GB de RAM, atendendo às demandas de profissionais de design gráfico. </br>
+    o Design moderno: O design elegante e compacto torna-o fácil de transportar e usar em qualquer lugar. </br>
+    o Considerações adicionais: </br>
+    o Tela: A tela de 15,6 polegadas oferece um amplo espaço de trabalho para edição de imagens e projetos gráficos. </br>
+    o Preferências do usuário: A recomendação leva em consideração a necessidade de um notebook que atenda às demandas específicas de profissionais de design gráfico. </br>
  
 **RF3 - Comparações de Produtos, levando em conta custo-benefício:** </br>
-• O sistema deve comparar produtos com base em critérios como desempenho, qualidade, preço e feedback dos consumidores. Ele fornecerá um resumo das vantagens e desvantagens de cada produto, ajudando o usuário a escolher a melhor opção de acordo com o orçamento e a necessidade.
+• O sistema deve comparar produtos com base em critérios como desempenho, qualidade, preço e feedback dos consumidores. Ele fornecerá um resumo das vantagens e desvantagens de cada produto, ajudando o usuário a escolher a melhor opção de acordo com o orçamento e a necessidade. </br>
+• Usabilidade:
+  o Pergunta: Quais as principais diferenças entre os notebooks da marca Dell e os da marca Lenovo Ideapad em termos de desempenho e preço? </br>
+  o Resposta esperada:  </br>
+  **Principais Diferenças entre Notebooks Dell e Lenovo Ideapad** </br>
+  **Desempenho:** </br>
+    * **Dell:** Geralmente equipados com processadores Intel Core i5 ou i7, oferecendo desempenho robusto para tarefas diárias e multitarefa. </br>
+    * **Lenovo Ideapad:** Conhecidos por oferecer uma ampla gama de opções de processador, incluindo Intel Core i3, i5 e i7, atendendo a diferentes necessidades de desempenho. </br>
+    
+  **Preço:** </br>
+    * **Dell:** Notebooks Dell tendem a ter um preço mais alto em comparação com os modelos Lenovo Ideapad com especificações semelhantes. </br>
+    * **Lenovo Ideapad:** Oferece uma variedade de opções de preço, com modelos econômicos e modelos de alto desempenho disponíveis. </br>
+  
+  **Características:** </br>
+  **Dell:** </br>
+    * **Tela:** Telas nítidas e vibrantes com opções de resolução Full HD e 4K. </br>
+    * **Design:** Design elegante e moderno com opções de cores e acabamentos premium. </br>
+    * **Durabilidade:** Construção robusta e durável, projetada para uso prolongado. </br>
+    
+  **Lenovo Ideapad:** </br>
+    * **Tela:** Telas antirreflexo com opções de resolução HD e Full HD. </br>
+    * **Design:** Design prático e funcional com opções de cores mais discretas. </br>
+    * **Recursos multimídia:** Alguns modelos oferecem recursos multimídia aprimorados, como alto-falantes Harman Kardon e Dolby Atmos. </br>
+    
  
 **RF4 - Análise de Sentimento a partir de Reviews:** </br>
-• O sistema deve analisar as avaliações dos consumidores e identificar o sentimento predominante (positivo, negativo ou neutro) em relação a um produto., auxiliando na percepção da qualidade do mesmo.
- 
+• O sistema deve analisar as avaliações dos consumidores e identificar o sentimento predominante (positivo, negativo ou neutro) em relação a um produto, auxiliando na percepção da qualidade do mesmo. </br>
+• Usabilidade: </br>
+  • Pergunta: Qual a percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto e usabilidade? </br>
+  • Resposta esperada: </br>
+    **Percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell:** </br>
+      As avaliações e comentários dos usuários indicam uma percepção geral positiva sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto e usabilidade. </br>
+    **Conforto:** </br>
+      * Teclado ergonômico com teclas macias e silenciosas, proporcionando uma experiência de digitação confortável. </br>
+      * Mouse óptico preciso com design ambidestro, se adaptando a diferentes tamanhos e formatos de mãos. </br>
+    **Usabilidade:**    </br>
+      * Conexão sem fio de 2,4 GHz oferece liberdade de movimentos e reduz a desordem de cabos. </br>
+      * Alta precisão do mouse, facilitando tarefas de navegação e edição. </br>
+      * Compatibilidade com vários sistemas operacionais, tornando-o versátil para uso em diferentes dispositivos. </br>
+
 **RF5 - Análise de Tendências de Opinião:** </br>
-• O sistema identifica tendências e similaridades de padrões nas opiniões dos consumidores sobre produtos, oferecendo insights para decisões de compra.
+• O sistema identifica tendências e similaridades de padrões nas opiniões sobre produtos dos consumidores de um público específico, oferecendo insights para decisões de compra que atenda o público especificado. </br>
+• Usabilidade: </br>
+  • Pergunta: Quais notebooks têm recebido melhores feedbacks de profissionais que trabalham em casa? </br>
+  • Resposta esperada:   </br>
+  **Recomendação:** Notebook Dell Inspiron 15 3000 </br>
+    **Justificativa:** </br>
+      * **Feedbacks positivos:** Análises de profissionais que trabalham em casa indicam alta satisfação com o desempenho e recursos do Notebook Dell Inspiron 15 3000. </br>
+      * **Características adequadas:** A tela de 15,6 polegadas, o processador Intel Core i5 e os 8GB de RAM oferecem capacidade suficiente para multitarefa e aplicativos exigentes. </br>
+      * **Design ergonômico:** O design leve e compacto torna o notebook fácil de transportar e usar em qualquer lugar da casa. </br>
+      
+  **Considerações adicionais:** </br>
+    * **Tendência de consumo:** Análises anteriores indicam que profissionais que trabalham em casa valorizam notebooks com telas grandes, processadores potentes e designs ergonômicos. </br>
+    * **Preferências do usuário:** A recomendação leva em consideração a necessidade de um notebook que atenda às demandas específicas de profissionais que trabalham em casa. </br>
+    
+  **Características principais:** </br>
+    * **Tela:** Tela LED de 15,6 polegadas com resolução Full HD (1920 x 1080) </br>
+    * **Processador:** Intel Core i5-1135G7 (2,4GHz até 4,2GHz) </br>
+    * **Memória RAM:** 8GB DDR4 </br>
+    * **Armazenamento:** 256GB SSD </br>
+    * **Placa de vídeo:** Intel Iris Xe Graphics </br>
+    * **Sistema operacional:** Windows 11 Home </br>
+    
+  **Recomenda-se este notebook para profissionais que trabalham em casa que buscam:** </br>
+    * Um notebook com desempenho confiável e tela grande para multitarefa e aplicativos exigentes. </br>
+    * Design ergonômico e leve para fácil portabilidade e uso em diferentes ambientes da casa. </br>
+    * Recursos de segurança avançados para proteger dados e privacidade. </br>
+
+  **RF6 - Personalização de Respostas com Base no Histórico de Conversa:** </br>
+• O sistema deve ser capaz de acessar e analisar o histórico de conversas do usuário para fornecer respostas mais contextualizadas e relevantes, aprimorando a experiência do usuário ao adaptar as sugestões e informações de acordo com interações anteriores. </br>
+• Usabilidade: </br>
+  • Histórico da conversa: Kit Teclado e Mouse Wireless KM636 Dell e o Notebook Dell Inspiron 15 3000 </br>
+  • Pergunta: Compare os dois últimos produtos que você citou acima </br>
+  • Resposta esperada:   </br>
+  **Comparação entre o Kit Teclado e Mouse Wireless KM636 Dell e o Notebook Dell Inspiron 15 3000** </br>
+
+  **Características:** </br>
+  
+  | Característica | Kit Teclado e Mouse Wireless KM636 Dell | Notebook Dell Inspiron 15 3000 |
+  |---|---|---|
+  | Tipo de produto | Kit teclado e mouse | Notebook |
+  | Conexão | Sem fio (2,4 GHz) | Com fio |
+  | Teclado | Ergonômico, teclas macias e silenciosas | Não especificado |
+  | Mouse | Óptico, preciso, design ambidestro | Não aplicável |
+  | Tela | Não aplicável | 15,6 polegadas, Full HD (1920 x 1080) |
+  | Processador | Não aplicável | Intel Core i5-1135G7 (2,4GHz até 4,2GHz) |
+  | Memória RAM | Não aplicável | 8GB DDR4 |
+  | Armazenamento | Não aplicável | 256GB SSD |
+  | Sistema operacional | Não aplicável | Windows 11 Home |
+  
+  **Recomendações:** </br>
+    * **Para usuários que buscam um kit teclado e mouse confortável e confiável:** Kit Teclado e Mouse Wireless KM636 Dell </br>
+    * **Para profissionais que trabalham em casa e precisam de um notebook com desempenho confiável, tela grande e design ergonômico:** Notebook Dell Inspiron 15 3000 </br>
+    
+
+
 </br>
 </br>
  
@@ -75,12 +188,12 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 
 | Rank | Prioridade | User Story                                                                                                                                                      | Estimativa | Sprint | Requisito do Parceiro |
 |:----:|:----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:------:|:---------------------:|
-| 1    | Alta       | **Criação da Interface de Chatbot para reviews - Implementação do RAG/FAISS**</br><br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as reviews de produtos em linguagem natural com dados crus. <br> | 21         | 1      | RF1              |
-| 2    | Alta       | **Criação da Interface de Chatbot para reviews - Base de dados refinada**</br><br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as reviews de produtos em linguagem natural com dados refinados. <br>| 25         | 1      | RF1                  |
-| 3    | Média      | **Análise de Sentimento para Comparação de Produtos**<br><br>Como um funcionário do departamento de compras, com base nas reviews e notas fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, como comentários positivos, negativos ou neutros, para que eu possa entender a opinião geral dos consumidores sobre um ou mais produtos e a diferença entre eles, para assim priorizar as melhores opções de compra.<br> | 13         | 2      | RF3, RF4                 |
-| 4    | Média      | **Recomendações de Produtos**<br><br>Como um funcionário do departamento de compras, ao especificar uma categoria de produtos, eu quero receber recomendações de produtos dessa categoria com base na análise de sentimentos e comparações dos produtos com melhores reviews, para que eu possa tomar decisões embasadas sobre quais produtos adquirir.<br> | 13         | 2      | RF2, RF4               |
-| 5    | Média      | **Histórico de Conversa**<br><br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. <br>| 13         | 2      |               RF1, RF4              |
-| 6    | Média      | **Implementação da interface front-end**<br><br>Como um funcionário do departamento de compras, quero visualizar uma interface simples de navegação para que eu tenha maior facilidade de interagir com o chat bot. <br>| 31         | 2      | RF1, RF2    |
+| 1    | Alta       | **Criação da Interface de Chatbot para reviews - Implementação do RAG/FAISS**</br><br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as reviews de produtos em linguagem natural com dados crus. <br> | 21         | 1      | RF2              |
+| 2    | Alta       | **Criação da Interface de Chatbot para reviews - Base de dados refinada**</br><br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as reviews de produtos em linguagem natural com dados refinados. <br>| 25         | 1      | RF1, RF2                  |
+| 3    | Média      | **Análise de Sentimento para Comparação de Produtos**<br><br>Como um funcionário do departamento de compras, com base nas reviews fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, como comentários positivos, negativos ou neutros, para que eu possa entender a opinião geral dos consumidores sobre um ou mais produtos e a diferença entre eles, para assim priorizar as melhores opções de compra.<br> | 13         | 2      | RF3, RF4                 |
+| 4    | Média      | **Histórico de Conversa**<br><br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. <br>| 13         | 2      |               RF6              |
+| 5    | Média      | **Implementação da interface front-end**<br><br>Como um funcionário do departamento de compras, quero visualizar uma interface simples de navegação para que eu tenha maior facilidade de interagir com o chat bot. <br>| 31         | 2      | RF1, RF2    |
+| 6    | Média      | **Recomendações de Produtos por Segmento de Pessoas**<br><br>Como um funcionário do departamento de compras, ao especificar uma categoria de produtos para um público específico, eu quero receber recomendações de produtos dessa categoria com base na tendência de opiniões de pessoas de um mesmo segmento, para que eu possa tomar decisões embasadas sobre quais produtos adquirir para esse grupo.<br> | 13         | 3      | RF2, RF5               |
 | 7    | Baixa      | **Refinamento da interface front-end**<br><br>Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável. <br>                                                                                                                           | 20         | 3      | RF1, RF2          |
 | 8    | Baixa      | **Tutorial em Vídeo**<br><br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a interface do chatbot de maneira eficiente. <br>| 2          | 3      | RNF4                  |
 
