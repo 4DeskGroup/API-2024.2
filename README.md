@@ -170,11 +170,11 @@ o Resposta esperada: </br>
  
  # 💻 Requisitos Não Funcionais
  
-**RNF1 - BD Vetorial ChromaDB, FAISS ou outro:** </br>
-• O sistema deve utilizar um banco de dados vetorial, como ChromaDB ou FAISS, para consultas eficientes.
+**RNF1 - BD Vetorial FAISS:** </br>
+• O sistema deve utilizar o banco de dados vetorial FAISS, para consultas eficientes.
  
-**RNF2 - Datasets de uso público do Huggingface:** </br>
-• O sistema deve usar modelos de dataset disponíveis publicamente no Huggingface para busca do dataset.
+**RNF2 - Datasets de uso público do Huggingface B2W:** </br>
+• O sistema deve usar os modelos de dataset B2W-Reviews01 disponíveis publicamente no Huggingface para busca do dataset.
  
 **RNF3 - Framework Langchain:** </br>
 • O sistema deve ser desenvolvido usando o framework Langchain para integração com modelos e bases de dados.
