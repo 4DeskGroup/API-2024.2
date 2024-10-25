@@ -57,16 +57,16 @@ o Resposta esperada:  </br>
 **RF2 - Sugestões de Produtos, por categoria inclusive:** </br>
 • O sistema deve ser capaz de sugerir produtos dentro de categorias especificadas pelo usuário. Isso permite que o usuário receba recomendações personalizadas, mesmo sem especificar um produto ou marca exata. </br>
 • Usabilidade: </br>
-o Pergunta: Sou um profissional na parte de design. Quais opções de notebook são recomendadas para profissionais de design gráfico? </br>
+o Pergunta: Quais opções de notebook são recomendadas de acordo com as reviews dos usuários? </br>
 o Resposta esperada: </br>
   o Recomendação: Notebook Dell Inspiron 15 3000 </br>
   o Justificativa: </br>
     o Avaliação positiva: Possui avaliação de 4, indicando que os usuários estão satisfeitos com o produto. </br>
-    o Características adequadas: Conta com tela de 15,6 polegadas, processador Intel Core i5 e 8GB de RAM, atendendo às demandas de profissionais de design gráfico. </br>
+    o Características adequadas: Conta com tela de 15,6 polegadas, processador Intel Core i5 e 8GB de RAM. </br>
     o Design moderno: O design elegante e compacto torna-o fácil de transportar e usar em qualquer lugar. </br>
     o Considerações adicionais: </br>
     o Tela: A tela de 15,6 polegadas oferece um amplo espaço de trabalho para edição de imagens e projetos gráficos. </br>
-    o Preferências do usuário: A recomendação leva em consideração a necessidade de um notebook que atenda às demandas específicas de profissionais de design gráfico. </br>
+     </br>
  
 **RF3 - Comparações de Produtos, levando em conta custo-benefício:** </br>
 • O sistema deve comparar produtos com base em critérios como desempenho, qualidade, preço e feedback dos consumidores. Ele fornecerá um resumo das vantagens e desvantagens de cada produto, ajudando o usuário a escolher a melhor opção de acordo com o orçamento e a necessidade. </br>
