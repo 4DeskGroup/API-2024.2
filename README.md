@@ -57,7 +57,7 @@ o Resposta esperada:  </br>
 **RF2 - Sugestões de Produtos, por categoria inclusive:** </br>
 • O sistema deve ser capaz de sugerir produtos dentro de categorias especificadas pelo usuário. Isso permite que o usuário receba recomendações personalizadas, mesmo sem especificar um produto ou marca exata. </br>
 • Usabilidade: </br>
-o Pergunta: Quais opções de notebook são recomendadas de acordo com as reviews dos usuários? </br>
+o Pergunta: Qual opção de notebook é recomendada de acordo com as reviews dos usuários? </br>
 o Resposta esperada: </br>
   o Recomendação: Notebook Dell Inspiron 15 3000 </br>
   o Justificativa: </br>
