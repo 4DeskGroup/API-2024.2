@@ -21,7 +21,7 @@
 
 <div align="center">
  
- [Informações e Proposta do projeto](https://github.com/4DeskGroup/API-2024.2#proposta) • [Backlog](https://github.com/4DeskGroup/API-2024.2#backlog) • [Relatórios](https://github.com/4DeskGroup/API-2024.2#relatorios) • [Entregas](https://github.com/4DeskGroup/API-2024.2#entregas) • [Tecnologias](https://github.com/4DeskGroup/API-2024.2#tecnologias) • [Equipe](https://github.com/4DeskGroup/API-2024.2#equipe)
+ [Informações e Proposta do projeto](https://github.com/4DeskGroup/API-2024.2#proposta) • [Backlog](https://github.com/4DeskGroup/API-2024.2#backlog) • [Entregas](https://github.com/4DeskGroup/API-2024.2#entregas) • [Tecnologias](https://github.com/4DeskGroup/API-2024.2#tecnologias) • [Equipe](https://github.com/4DeskGroup/API-2024.2#equipe)
 </div>
 
 <div name="proposta"></div>
@@ -37,139 +37,167 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 <div name="backlog"></div> 
 
  # 📑 Requisitos Funcionais
+ 
+**RF1 - Especificações de Produtos a partir de Reviews:** </br>
+• O sistema deve extrair informações detalhadas de avaliações e comentários feitos por consumidores, destacando aspectos importantes, como qualidade, desempenho e características do produto especificado pelo usuário. Essas informações ajudarão a entender a experiência de outros compradores e a tomar decisões informadas.  </br>
 
-#### RF1:
+• Usabilidade:  </br>
+o Pergunta: Quais características a Cadeira de Escritório Dot All Black mais se destacam nas avaliações?  </br>
+o Resposta esperada:  </br>
+  o Características da Cadeira de Escritório Dot All Black  </br>
+    ▪ Giratória: Facilita a movimentação e o ajuste de posição.  </br>
+    ▪ Rodízios: Permite fácil deslocamento no ambiente de trabalho.  </br>
+    ▪ Laminada: Oferece durabilidade e resistência a riscos. </br>
+    ▪ Corino preto: Confere um toque de elegância e estilo. </br>
+  o Esta cadeira é recomendada para usuários que buscam: </br>
+    ▪ Conforto e ajuste de posição </br>
+    ▪ Facilidade de movimentação </br>
+    ▪ Design moderno e elegante </br>
+ 
+**RF2 - Sugestões de Produtos, por categoria inclusive:** </br>
+• O sistema deve ser capaz de sugerir produtos dentro de categorias especificadas pelo usuário. Isso permite que o usuário receba recomendações personalizadas, mesmo sem especificar um produto ou marca exata. </br>
+• Usabilidade: </br>
+o Pergunta: Sou um profissional na parte de design. Quais opções de notebook são recomendadas para profissionais de design gráfico? </br>
+o Resposta esperada: </br>
+  o Recomendação: Notebook Dell Inspiron 15 3000 </br>
+  o Justificativa: </br>
+    o Avaliação positiva: Possui avaliação de 4, indicando que os usuários estão satisfeitos com o produto. </br>
+    o Características adequadas: Conta com tela de 15,6 polegadas, processador Intel Core i5 e 8GB de RAM, atendendo às demandas de profissionais de design gráfico. </br>
+    o Design moderno: O design elegante e compacto torna-o fácil de transportar e usar em qualquer lugar. </br>
+    o Considerações adicionais: </br>
+    o Tela: A tela de 15,6 polegadas oferece um amplo espaço de trabalho para edição de imagens e projetos gráficos. </br>
+    o Preferências do usuário: A recomendação leva em consideração a necessidade de um notebook que atenda às demandas específicas de profissionais de design gráfico. </br>
+ 
+**RF3 - Comparações de Produtos, levando em conta custo-benefício:** </br>
+• O sistema deve comparar produtos com base em critérios como desempenho, qualidade, preço e feedback dos consumidores. Ele fornecerá um resumo das vantagens e desvantagens de cada produto, ajudando o usuário a escolher a melhor opção de acordo com o orçamento e a necessidade. </br>
+• Usabilidade:
+  o Pergunta: Quais as principais diferenças entre os notebooks da marca Dell e os da marca Lenovo Ideapad em termos de desempenho e preço? </br>
+  o Resposta esperada:  </br>
+  **Principais Diferenças entre Notebooks Dell e Lenovo Ideapad** </br>
+  **Desempenho:** </br>
+    * **Dell:** Geralmente equipados com processadores Intel Core i5 ou i7, oferecendo desempenho robusto para tarefas diárias e multitarefa. </br>
+    * **Lenovo Ideapad:** Conhecidos por oferecer uma ampla gama de opções de processador, incluindo Intel Core i3, i5 e i7, atendendo a diferentes necessidades de desempenho. </br>
+    
+  **Preço:** </br>
+    * **Dell:** Notebooks Dell tendem a ter um preço mais alto em comparação com os modelos Lenovo Ideapad com especificações semelhantes. </br>
+    * **Lenovo Ideapad:** Oferece uma variedade de opções de preço, com modelos econômicos e modelos de alto desempenho disponíveis. </br>
+  
+  **Características:** </br>
+  **Dell:** </br>
+    * **Tela:** Telas nítidas e vibrantes com opções de resolução Full HD e 4K. </br>
+    * **Design:** Design elegante e moderno com opções de cores e acabamentos premium. </br>
+    * **Durabilidade:** Construção robusta e durável, projetada para uso prolongado. </br>
+    
+  **Lenovo Ideapad:** </br>
+    * **Tela:** Telas antirreflexo com opções de resolução HD e Full HD. </br>
+    * **Design:** Design prático e funcional com opções de cores mais discretas. </br>
+    * **Recursos multimídia:** Alguns modelos oferecem recursos multimídia aprimorados, como alto-falantes Harman Kardon e Dolby Atmos. </br>
+    
+ 
+**RF4 - Análise de Sentimento a partir de Reviews:** </br>
+• O sistema deve analisar as avaliações dos consumidores e identificar o sentimento predominante (positivo, negativo ou neutro) em relação a um produto, auxiliando na percepção da qualidade do mesmo. </br>
+• Usabilidade: </br>
+  • Pergunta: Qual a percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto e usabilidade? </br>
+  • Resposta esperada: </br>
+    **Percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell:** </br>
+      As avaliações e comentários dos usuários indicam uma percepção geral positiva sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto e usabilidade. </br>
+    **Conforto:** </br>
+      * Teclado ergonômico com teclas macias e silenciosas, proporcionando uma experiência de digitação confortável. </br>
+      * Mouse óptico preciso com design ambidestro, se adaptando a diferentes tamanhos e formatos de mãos. </br>
+    **Usabilidade:**    </br>
+      * Conexão sem fio de 2,4 GHz oferece liberdade de movimentos e reduz a desordem de cabos. </br>
+      * Alta precisão do mouse, facilitando tarefas de navegação e edição. </br>
+      * Compatibilidade com vários sistemas operacionais, tornando-o versátil para uso em diferentes dispositivos. </br>
 
-•	O chatbot deve permitir perguntas sobre assuntos gerais.</br>
-•	O sistema deve fornecer respostas básicas e compreensíveis.</br>
+**RF5 - Análise de Tendências de Opinião:** </br>
+• O sistema identifica tendências e similaridades de padrões nas opiniões sobre produtos dos consumidores de um público específico, oferecendo insights para decisões de compra que atenda o público especificado. </br>
+• Usabilidade: </br>
+  • Pergunta: Quais notebooks têm recebido melhores feedbacks de profissionais que trabalham em casa? </br>
+  • Resposta esperada:   </br>
+  **Recomendação:** Notebook Dell Inspiron 15 3000 </br>
+    **Justificativa:** </br>
+      * **Feedbacks positivos:** Análises de profissionais que trabalham em casa indicam alta satisfação com o desempenho e recursos do Notebook Dell Inspiron 15 3000. </br>
+      * **Características adequadas:** A tela de 15,6 polegadas, o processador Intel Core i5 e os 8GB de RAM oferecem capacidade suficiente para multitarefa e aplicativos exigentes. </br>
+      * **Design ergonômico:** O design leve e compacto torna o notebook fácil de transportar e usar em qualquer lugar da casa. </br>
+      
+  **Considerações adicionais:** </br>
+    * **Tendência de consumo:** Análises anteriores indicam que profissionais que trabalham em casa valorizam notebooks com telas grandes, processadores potentes e designs ergonômicos. </br>
+    * **Preferências do usuário:** A recomendação leva em consideração a necessidade de um notebook que atenda às demandas específicas de profissionais que trabalham em casa. </br>
+    
+  **Características principais:** </br>
+    * **Tela:** Tela LED de 15,6 polegadas com resolução Full HD (1920 x 1080) </br>
+    * **Processador:** Intel Core i5-1135G7 (2,4GHz até 4,2GHz) </br>
+    * **Memória RAM:** 8GB DDR4 </br>
+    * **Armazenamento:** 256GB SSD </br>
+    * **Placa de vídeo:** Intel Iris Xe Graphics </br>
+    * **Sistema operacional:** Windows 11 Home </br>
+    
+  **Recomenda-se este notebook para profissionais que trabalham em casa que buscam:** </br>
+    * Um notebook com desempenho confiável e tela grande para multitarefa e aplicativos exigentes. </br>
+    * Design ergonômico e leve para fácil portabilidade e uso em diferentes ambientes da casa. </br>
+    * Recursos de segurança avançados para proteger dados e privacidade. </br>
 
-#### RF2:
+  **RF6 - Personalização de Respostas com Base no Histórico de Conversa:** </br>
+• O sistema deve ser capaz de acessar e analisar o histórico de conversas do usuário para fornecer respostas mais contextualizadas e relevantes, aprimorando a experiência do usuário ao adaptar as sugestões e informações de acordo com interações anteriores. </br>
+• Usabilidade: </br>
+  • Histórico da conversa: Kit Teclado e Mouse Wireless KM636 Dell e o Notebook Dell Inspiron 15 3000 </br>
+  • Pergunta: Compare os dois últimos produtos que você citou acima </br>
+  • Resposta esperada:   </br>
+  **Comparação entre o Kit Teclado e Mouse Wireless KM636 Dell e o Notebook Dell Inspiron 15 3000** </br>
 
-•	O chatbot deve responder perguntas sobre análises de produtos que tiveram reviews e informações de compradores anteriores.</br>
-• Os usuários podem obter informações detalhadas e diretas sobre produtos, ajudando na tomada de decisão para comprar itens com melhor custo-benefício para a empresa.</br>
+  **Características:** </br>
+  
+  | Característica | Kit Teclado e Mouse Wireless KM636 Dell | Notebook Dell Inspiron 15 3000 |
+  |---|---|---|
+  | Tipo de produto | Kit teclado e mouse | Notebook |
+  | Conexão | Sem fio (2,4 GHz) | Com fio |
+  | Teclado | Ergonômico, teclas macias e silenciosas | Não especificado |
+  | Mouse | Óptico, preciso, design ambidestro | Não aplicável |
+  | Tela | Não aplicável | 15,6 polegadas, Full HD (1920 x 1080) |
+  | Processador | Não aplicável | Intel Core i5-1135G7 (2,4GHz até 4,2GHz) |
+  | Memória RAM | Não aplicável | 8GB DDR4 |
+  | Armazenamento | Não aplicável | 256GB SSD |
+  | Sistema operacional | Não aplicável | Windows 11 Home |
+  
+  **Recomendações:** </br>
+    * **Para usuários que buscam um kit teclado e mouse confortável e confiável:** Kit Teclado e Mouse Wireless KM636 Dell </br>
+    * **Para profissionais que trabalham em casa e precisam de um notebook com desempenho confiável, tela grande e design ergonômico:** Notebook Dell Inspiron 15 3000 </br>
+    
 
-#### RF3:
 
-•	O chatbot deve fornecer respostas bem direcionadas e respostas em linguagem natural com detalhes específicos e claros sobre informações de categorias de produtos mencionadas pelo usuário.</br>
-•	Permite acesso à informações precisas e relevantes, facilitando a comparação e escolha de produtos para o setor de compras de empresas, garantindo informações confiáveis e embasadas.</br>
-•	Melhoria das respostas para perguntas sobre compras de produtos para que forneça respostas mais ricas, confiáveis e informativas sobre produtos.</br>
-
-#### RF4:
-
-•	O sistema deve identificar e classificar o sentimento das análises (positivo, neutro, negativo) de acordo com a dúvida do usuário do setor de compras da empresa, como:
-  •	Descrição de sentimentos e opiniões agrupados por produto.
-  •	Visualização clara das tendências de opinião.
-  •	Comparação entre dois ou mais produtos com o mesmo propósito, mostrando os prós e contras de cada um e qual pode ser melhor para uma circunstância específica.
-•	Respostas que ajudam a entender a percepção geral dos consumidores, influenciando decisões de compra.
-
-#### RF5:
-
-•	O sistema deve gerar recomendações baseadas em análises positivas de produtos para facilitar a escolha de produtos de alta qualidade, baseando-se na opinião dos consumidores.</br>
-•	O sistema deve fornecer respostas como lista de produtos recomendados com base em reviews permitindo visualizar e entender detalhes dos produtos recomendados.</br>
-
-#### RF6:
-
-•	O sistema deve apresentar uma classificação dos produtos (muito bom, bom, neutro, ruim) ajudando a priorizar produtos que são mais bem avaliados, tornando o processo de compra mais eficiente e entender qual a motivação por trás de cada nota, com detalhes claros.</br>
-•	Visualização clara das classificações dos produtos.</br>
-•	Sistema fornece respostas que permite o usuário entender produtos por categoria de avaliação.</br>
-
-#### RF7:
-
-•	A interface deve ser fácil de navegar e interagir, proporcionando uma experiência agradável, facilitando a interação com o chatbot.</br>
-•	Design intuitivo com botões de navegação.</br>
-•	Layout limpo e organizado.</br>
-•	Elementos visuais que guiam o usuário durante a navegação.
-
+</br>
+</br>
+ 
+ # 💻 Requisitos Não Funcionais
+ 
+**RNF1 - BD Vetorial FAISS:** </br>
+• O sistema deve utilizar o banco de dados vetorial FAISS, para consultas eficientes.
+ 
+**RNF2 - Datasets de uso público do Huggingface B2W:** </br>
+• O sistema deve usar os modelos de dataset B2W-Reviews01 disponíveis publicamente no Huggingface para busca do dataset.
+ 
+**RNF3 - Framework Langchain:** </br>
+• O sistema deve ser desenvolvido usando o framework Langchain para integração com modelos e bases de dados.
+ 
+**RNF4 - Vídeo-tutorial:** </br>
+• O sistema deve incluir um vídeo-tutorial para facilitar a compreensão de seu uso e funcionalidades.
+</br>
+</br>
 
  # :bulb: Backlog
 
 | Rank | Prioridade | User Story                                                                                                                                                      | Estimativa | Sprint | Requisito do Parceiro |
 |:----:|:----------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------:|:------:|:---------------------:|
-| 1    | Alta       | Criação da Interface de Chatbot básica<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas sobre assuntos gerais e receber respostas básicas para minhas perguntas. | 21         | 1      | RNF2, RF1                 |
-| 2    | Alta       | Criação da Interface de Chatbot para reviews - Implementação do RAG/FAISS<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural com dados crus. | 21         |    1    |      RNF2, RF2              |
-| 3    | Alta       | Criação da Interface de Chatbot para reviews - Base de dados refinada<br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados. | 25         | 1      | RNF1, RNF2, RF3                   |
-| 4    | Média      | Análise de Sentimento para Comparação de Produtos<br>Como um funcionário do departamento de compras, eu quero que a IA identifique o sentimento nas reviews (positivo, neutro, negativo), para que eu possa entender a opinião geral dos consumidores sobre um produto. |      13      | 2      | RNF1, RNF2, RF4                   |
-| 5    | Média      | Recomendações de Produtos<br>Como um funcionário do departamento de compras, eu quero receber recomendações de produtos com base nos melhores reviews, para que eu possa tomar decisões informadas sobre quais produtos adquirir. |       13     | 2      | RNF1, RNF2, RF5                   |
-| 6    | Média      | Classificação de Produtos<br>Como um funcionário do departamento de compras, eu quero ver uma classificação clara dos produtos (muito bom, bom, neutro, ruim), para que eu possa priorizar os melhores produtos. |      21      | 2      | RNF1, RNF2, RF6                   |
-| 7    | Média      | Criação da interface front-end<br>Como um usuário final, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir  com o chat bot.                                                                                                                            |      10      |   2     |          RNF3, RF7            |
-| 8    | Baixa      | Refinamento da interface front-end<br>Como um usuário final, quero visualizar uma interface de fácil e intuitiva navegação para que eu tenha uma experiência agradável.                                                                                                                            |      20      |   3     |          RNF3, RF7            |
-| 9    | Baixa      | Tutorial em Vídeo<br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a plataforma de maneira eficiente. |      2      | 3      | RNF4                  |
-</br>
+| 1    | Alta       | **Criação da Interface de Chatbot para reviews - Implementação do RAG/FAISS**</br><br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as reviews de produtos em linguagem natural com dados crus. <br> | 21         | 1      | RF2              |
+| 2    | Alta       | **Criação da Interface de Chatbot para reviews - Base de dados refinada**</br><br>Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as reviews de produtos em linguagem natural com dados refinados. <br>| 25         | 1      | RF1, RF2                  |
+| 3    | Média      | **Análise de Sentimento para Comparação de Produtos**<br><br>Como um funcionário do departamento de compras, com base nas reviews fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, como comentários positivos, negativos ou neutros, para que eu possa entender a opinião geral dos consumidores sobre um ou mais produtos e a diferença entre eles, para assim priorizar as melhores opções de compra.<br> | 13         | 2      | RF3, RF4                 |
+| 4    | Média      | **Histórico de Conversa**<br><br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. <br>| 13         | 2      |               RF6              |
+| 5    | Média      | **Implementação da interface front-end**<br><br>Como um funcionário do departamento de compras, quero visualizar uma interface simples de navegação para que eu tenha maior facilidade de interagir com o chat bot. <br>| 31         | 2      | RF1, RF2    |
+| 6    | Média      | **Recomendações de Produtos por Segmento de Pessoas**<br><br>Como um funcionário do departamento de compras, ao especificar uma categoria de produtos para um público específico, eu quero receber recomendações de produtos dessa categoria com base na tendência de opiniões de pessoas de um mesmo segmento, para que eu possa tomar decisões embasadas sobre quais produtos adquirir para esse grupo.<br> | 13         | 3      | RF2, RF5               |
+| 7    | Baixa      | **Refinamento da interface front-end**<br><br>Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável. <br>                                                                                                                           | 20         | 3      | RF1, RF2          |
+| 8    | Baixa      | **Tutorial em Vídeo**<br><br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a interface do chatbot de maneira eficiente. <br>| 2          | 3      | RNF4                  |
 
 
-
-
-
-<div name="entregas"></div> 
-
-# 📌 Entregas
-
-<details>
-<summary> <strong>Sprint 1</strong> </summary>
-  
-## 🎯 MVP
-
-O MVP da primeira entrega foi o desenvolvimento da IA capaz de monitorar a entrada e saída de pessoas dentro de RedZones e a exportação do Excel com os dados capturados.
-  
-## 📃 Backlog da Sprint
- 
-| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
-|------|------------|------------|------------|--------|-----------|
-| 01   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas sobre assuntos gerais e receber respostas básicas para minhas perguntas. | 21         | 01     | RF-2      |
-| 02   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural com dados crus. | 21         | 01     | RF-2      |
-| 03   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados.| 25         | 01     | RF-1 e RF-2      |
-## 📌 DOR
- 
-### 📄 User Stories e Critérios de Aceitação
- 
-**US #1:**  Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas sobre assuntos gerais e receber respostas básicas para minhas perguntas.
- 
-**Critérios de aceitação:**
- 
-- AC1. Interface de chatbot permite perguntas.
-- AC2. Responde perguntas gerais com respostas básicas.
-- AC3. Interface simples e acessível.
-- AC4. Respostas fluídas e rápidas.
-
- 
-**US #2:** Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural com dados crus.
- 
-**Critérios de aceitação:**
-
-- AC1. Interface permite perguntas sobre produtos.
-- AC2. Respostas baseadas em reviews de produtos.
-- AC3. Respostas em linguagem natural.
-- AC4. Informações como sentimento e resumo dos comentários incluídos nas respostas.
-- AC5. Capacidade de lidar com perguntas específicas sobre reviews de produtos.
-
-
-
-**US #3:** Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados.
- 
-**Critérios de aceitação:**
-
-- AC1. Interface permite perguntas sobre produtos.
-- AC2. Respostas baseadas em reviews de produtos sem dados repetidos e poluídos.
-- AC3. Respostas em linguagem natural.
-- AC4. Informações como sentimento e resumo dos comentários incluídos nas respostas.
-- AC5. Capacidade de lidar com perguntas específicas sobre reviews de produtos.
-
- 
-## 🖼️ Protótipo
-
-</br>
- 
-## 💾 Dados para IA
-
-Para essa entrega, os dados utilizados para construção do chat bot com IA foram a partir do repositório https://huggingface.co/datasets/ruanchaves/b2w-reviews01
-
-</br>
-
-## 🖥️ Entrega
- 
-</br>
-
-</details>
 
 </br>
 
@@ -182,24 +210,163 @@ As seguintes ferramentas, linguagens e tecnologias foram utilizadas na execuçã
  <img align="center" alt="Vue.js" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
  <img align="center" alt="python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
  <img align="center" alt="ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+ <img align="center" alt="ts" src="https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
+ <img align="center" alt="ts" src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white">
+ 
+
+  
 </div>
 
 </br>
 
 
-<div name="relatorios"></div> 
+<div name="entregas"></div> 
 
-# 📑 Relatórios
+# 📌 Entregas
 
-Na tabela a seguir, estão disponíveis os resultados de cada Sprint, com a opção de acessar os relatórios ao clicar em 'Acessar relatório'.
+<details>
+<summary> <strong>Sprint 1</strong> </summary>
+  
 
-| Sprint |            Data         | Status |    Relatório      |
-|:------:|:-----------------------:|:-------:|:-----------------:|
-| 01     | 09/09/2024 à 29/09/2024 |         | <a href="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/relat%C3%B3rio-sprint-1.md">Acessar relatório</a> |
-| 02     | 07/10/2024 à 27/10/2024 |         |  |
-| 03     | 04/11/2024 à 24/11/2024 |         |  |
+## 🎯 MVP
+
+O MVP da primeira entrega foi o desenvolvimento da IA capaz de receber inputs de perguntas e responder perguntas básicas sobre recomendações de produtos, com tratamento de dados para evitar respostas e informações errôneas.
+  
+## 📃 Backlog da Sprint
+ 
+| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
+|------|------------|------------|------------|--------|-----------|
+| 01   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as reviews e notas de produtos em linguagem natural com dados crus. | 21         | 01     | RF1     |
+| 02   | Alta       | Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados.| 25         | 01     | RF1      |
+## 📌 DOR
+ 
+### 📄 User Stories e Critérios de Aceitação
+
+ 
+**US #1:** Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas sobre as análises de produtos em linguagem natural com dados crus.
+ 
+**Critérios de aceitação:**
+
+- AC1. Interface permite perguntas sobre produtos.
+- AC2. Respostas baseadas em reviews de produtos.
+- AC3. Respostas em linguagem natural.
+- AC4. Informações como sentimento e resumo dos comentários incluídos nas respostas.
+- AC5. Capacidade de lidar com perguntas específicas sobre reviews de produtos.
+
+
+
+**US #2:** Como um usuário final, eu quero interagir com uma interface (prompt) de chatbot, para que eu possa fazer perguntas e receber respostas bem direcionadas sobre as análises de produtos em linguagem natural com dados refinados.
+ 
+**Critérios de aceitação:**
+
+- AC1. Interface permite perguntas sobre produtos.
+- AC2. Respostas baseadas em reviews de produtos sem dados repetidos e poluídos.
+- AC3. Respostas em linguagem natural.
+- AC4. Informações como sentimento e resumo dos comentários incluídos nas respostas.
+- AC5. Capacidade de lidar com perguntas específicas sobre reviews de produtos.
+
+ 
+</br>
+ 
+## 💾 Dados para IA
+
+Para essa entrega, os dados utilizados para construção do chat bot com IA foram a partir do repositório https://huggingface.co/datasets/ruanchaves/b2w-reviews01
 
 </br>
+
+## 🖥️ Entrega
+ 
+![Meu GIF](https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/sprint-1.gif)
+
+### Link do vídeo no youtube
+[Assista ao vídeo da entrega no YouTube](https://youtu.be/MjZo2yKE-Xw)
+ 
+</br>
+
+</details>
+
+
+
+<details>
+<summary> <strong>Sprint 2</strong> </summary>
+  
+
+## 🎯 MVP
+
+O MVP da segunda entrega foi o desenvolvimento da IA capaz de analisar e identificar o sentimento nas reviews de produtos, proporcionando ao funcionário do departamento de compras uma compreensão clara da opinião geral dos consumidores. Além disso, a IA deve oferecer recomendações de produtos baseadas nessa análise, possibilitando decisões de compra mais embasadas. A interação com um chatbot, que utiliza um banco de dados de reviews e um histórico de perguntas e respostas, facilitará a obtenção de informações específicas. Por fim, a interface de navegação será intuitiva, garantindo uma experiência de uso eficiente e acessível.
+  
+## 📃 Backlog da Sprint
+ 
+| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito |
+|------|:----------:|------------|:----------:|:------:|-----------|
+| 03    | Média      | **Análise de Sentimento para Comparação de Produtos**<br><br>Como um funcionário do departamento de compras, com base nas reviews fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, como comentários positivos, negativos ou neutros, para que eu possa entender a opinião geral dos consumidores sobre um ou mais produtos e a diferença entre eles, para assim priorizar as melhores opções de compra.<br> | 13         | 2      | RF3, RF4                 |
+| 04    | Média      | **Histórico de Conversa**<br><br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. <br>| 13         | 2      |               RF6              |
+| 05    | Média      | **Implementação da interface front-end**<br><br>Como um funcionário do departamento de compras, quero visualizar uma interface simples de navegação para que eu tenha maior facilidade de interagir com o chat bot. <br>| 31         | 2      | RF1, RF2    |
+
+</br>
+
+## 📌 DOR
+ 
+### 📄 User Stories e Critérios de Aceitação
+ 
+**US #3:**  Como um funcionário do departamento de compras, com base nas reviews fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, como comentários positivos, negativos ou neutros, para que eu possa entender a opinião geral dos consumidores sobre um ou mais produtos e a diferença entre eles, para assim priorizar as melhores opções de compra.
+ 
+**Critérios de aceitação:**
+ 
+- AC1. Classificação dos reviews em positivo, neutro ou negativo. Exemplo: Pergunta: "O Notebook da marca X e modelo Y é bom?" Resposta: "Ele possuí a maioria das avaliações positivas, com destaque em X,Y,Z"
+- AC2. Resposta clara e intuitiva.
+- AC3. Funciona para diferentes categorias de produtos.
+- AC4. Pelo menos um produto recomendado por consulta. Exemplo: Pergunta: "Me recomende um notebook para jogos" Resposta: "Notebook X"
+- AC5. Recomendações personalizadas com base em popularidade e nota.
+- AC6. Comparação de pelo menos 2 produtos similares. Exemplo: Pergunta: "Qual notebook tem um melhor custo benefício?" Resposta: "Notebook X (tais beneficios), Notebook Y (tais beneficios)"
+- AC7. Visualização lado a lado dos produtos.
+- AC8. Filtragem por categorias ou características específicas.
+</br>
+
+**US #4:** Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente.
+ 
+**Critérios de aceitação:** </br>
+- AC1. Quando o usuário fizer uma pergunta no chat, sua pergunta deve ser salva no histórico da conversa
+- AC2. A pergunta salva no histórico pode ser usada posteriormente como referência numa próxima pergunta para obter respostas mais precisas e dentro do contexto mencionado previamente.
+- AC3. O chat deve considerar todas as perguntas feitas pelo usuário para contextualizar suas próximas respostas.
+
+</br>
+
+**US #5:** Como um funcionário do departamento de compras, quero visualizar uma interface de navegação para que eu tenha maior facilidade de interagir com o chatbot.
+ 
+**Critérios de aceitação:**
+
+- AC1. O usuário deve visualizar uma interface gráfica composta por uma unica tela 
+- AC2. A interface deve ser composta por retângulos de texto ao lado direito para cada pergunta e lado esquerdo para respostas
+- AC3. A interface deve conter um campo de input na parte inferior da tela para digitar perguntas
+- AC4. A interface deve conter um botão para enviar a pergunta para o chat ler o que foi escrito.
+- AC5. A interface deve seguir o design de acordo com o Figma apresentado na história.
+
+ 
+</br>
+ 
+## 💾 Dados para IA
+
+Para essa entrega, os dados utilizados para construção do chat bot com IA foram a partir do repositório https://huggingface.co/datasets/ruanchaves/b2w-reviews01
+
+</br>
+
+## 🖥️ Entrega
+ 
+![Meu GIF]("")
+
+### Link do vídeo no youtube
+[Assista ao vídeo da entrega no YouTube]("")
+ 
+</br>
+
+</details>
+
+
+
+
+
+
 
 
 <div name="equipe"></div> 
