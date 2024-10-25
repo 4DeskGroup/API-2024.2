@@ -344,6 +344,10 @@ O MVP da segunda entrega foi o desenvolvimento da IA capaz de analisar e identif
 
  
 </br>
+
+### 📄 Protótipo - Figma
+<img src="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/figma.jpg?raw=true">
+
  
 ## 💾 Dados para IA
 
