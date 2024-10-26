@@ -357,10 +357,10 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 
 ## 🖥️ Entrega
  
-![Meu GIF]("")
+![Meu GIF](https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/sprint2.gif)
 
 ### Link do vídeo no youtube
-[Assista ao vídeo da entrega no YouTube]("")
+[Assista ao vídeo da entrega no YouTube](https://youtu.be/O2votaqPgYQ?si=yEo_fwVbvSeCX49m)
  
 </br>
 
