@@ -71,7 +71,7 @@ o Resposta esperada: </br>
 **RF3 - Comparações de Produtos, levando em conta custo-benefício:** </br>
 • O sistema deve comparar produtos com base em critérios como desempenho, qualidade, preço e feedback dos consumidores. Ele fornecerá um resumo das vantagens e desvantagens de cada produto, ajudando o usuário a escolher a melhor opção de acordo com o orçamento e a necessidade. </br>
 • Usabilidade:
-  o Pergunta: Quais as principais diferenças entre os notebooks da marca Dell e os da marca Lenovo Ideapad em termos de desempenho e preço? </br>
+  o Pergunta: Quais as principais diferenças entre os notebooks da marca Dell e os da marca Lenovo Ideapad em termos de desempenho e custo-benefício? </br>
   o Resposta esperada:  </br>
   **Principais Diferenças entre Notebooks Dell e Lenovo Ideapad** </br>
   **Desempenho:** </br>
@@ -95,9 +95,9 @@ o Resposta esperada: </br>
     
  
 **RF4 - Análise de Sentimento a partir de Reviews:** </br>
-• O sistema deve analisar as avaliações dos consumidores e identificar o sentimento predominante (positivo, negativo ou neutro) em relação a um produto, auxiliando na percepção da qualidade do mesmo. </br>
+• O sistema deve analisar as avaliações dos consumidores e identificar o sentimento predominante em relação a um produto, auxiliando na percepção da qualidade do mesmo. </br>
 • Usabilidade: </br>
-  • Pergunta: Qual a percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto e usabilidade? </br>
+  • Pergunta: Qual a percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto? </br>
   • Resposta esperada: </br>
     **Percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell:** </br>
       As avaliações e comentários dos usuários indicam uma percepção geral positiva sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto e usabilidade. </br>
