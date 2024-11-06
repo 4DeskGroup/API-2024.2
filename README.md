@@ -415,7 +415,7 @@ O MVP da terceira entrega permitirá que a IA forneça recomendações de produt
 </br>
 
 ### 📄 Protótipo - Figma
-<img src="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/figma.jpg?raw=true">
+<img src="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/scrn-principal.jpg">
 
  
 ## 💾 Dados para IA
