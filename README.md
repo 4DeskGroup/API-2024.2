@@ -37,8 +37,10 @@ As branches e commits deste projeto aderem ao padrão definido pelo [Conventiona
 <div name="backlog"></div> 
 
  # 📑 Requisitos Funcionais
- 
-**RF1 - Especificações de Produtos a partir de Reviews:** </br>
+
+<details>
+<summary> <strong>RF1 - Especificações de Produtos a partir de Reviews:</strong> </summary>
+
 • O sistema deve extrair informações detalhadas de avaliações e comentários feitos por consumidores, destacando aspectos importantes, como qualidade, desempenho e características do produto especificado pelo usuário. Essas informações ajudarão a entender a experiência de outros compradores e a tomar decisões informadas.  </br>
 
 • Usabilidade:  </br>
@@ -53,8 +55,11 @@ o Resposta esperada:  </br>
     ▪ Conforto e ajuste de posição </br>
     ▪ Facilidade de movimentação </br>
     ▪ Design moderno e elegante </br>
- 
-**RF2 - Sugestões de Produtos, por categoria inclusive:** </br>
+
+</details>
+
+<details>
+<summary> <strong>RF2 - Sugestões de Produtos, por categoria inclusive:</strong> </summary>
 • O sistema deve ser capaz de sugerir produtos dentro de categorias especificadas pelo usuário. Isso permite que o usuário receba recomendações personalizadas, mesmo sem especificar um produto ou marca exata. </br>
 • Usabilidade: </br>
 o Pergunta: Qual opção de notebook é recomendada de acordo com as reviews dos usuários? </br>
@@ -67,8 +72,11 @@ o Resposta esperada: </br>
     o Considerações adicionais: </br>
     o Tela: A tela de 15,6 polegadas oferece um amplo espaço de trabalho para edição de imagens e projetos gráficos. </br>
      </br>
- 
-**RF3 - Comparações de Produtos, levando em conta custo-benefício:** </br>
+
+</details>
+
+<details>
+<summary> <strong>RF3 - Comparações de Produtos, levando em conta custo-benefício:</strong> </summary>
 • O sistema deve comparar produtos com base em critérios como desempenho, qualidade, preço e feedback dos consumidores. Ele fornecerá um resumo das vantagens e desvantagens de cada produto, ajudando o usuário a escolher a melhor opção de acordo com o orçamento e a necessidade. </br>
 • Usabilidade:
   o Pergunta: Quais as principais diferenças entre os notebooks da marca Dell e os da marca Lenovo Ideapad em termos de desempenho e custo-benefício? </br>
@@ -92,9 +100,11 @@ o Resposta esperada: </br>
     * **Tela:** Telas antirreflexo com opções de resolução HD e Full HD. </br>
     * **Design:** Design prático e funcional com opções de cores mais discretas. </br>
     * **Recursos multimídia:** Alguns modelos oferecem recursos multimídia aprimorados, como alto-falantes Harman Kardon e Dolby Atmos. </br>
-    
- 
-**RF4 - Análise de Sentimento a partir de Reviews:** </br>
+
+</details> 
+
+<details>
+<summary> <strong>RF4 - Análise de Sentimento a partir de Reviews:</strong> </summary>
 • O sistema deve analisar as avaliações dos consumidores e identificar o sentimento predominante em relação a um produto, auxiliando na percepção da qualidade do mesmo. </br>
 • Usabilidade: </br>
   • Pergunta: Qual a percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto? </br>
@@ -108,8 +118,10 @@ o Resposta esperada: </br>
       * Conexão sem fio de 2,4 GHz oferece liberdade de movimentos e reduz a desordem de cabos. </br>
       * Alta precisão do mouse, facilitando tarefas de navegação e edição. </br>
       * Compatibilidade com vários sistemas operacionais, tornando-o versátil para uso em diferentes dispositivos. </br>
+</details> 
 
-**RF5 - Análise de Tendências de Opinião:** </br>
+<details>
+<summary> <strong>RF5 - Análise de Tendências de Opinião:</strong> </summary>
 • O sistema identifica tendências e similaridades de padrões nas opiniões sobre produtos dos consumidores de um público específico, oferecendo insights para decisões de compra que atenda o público especificado. </br>
 • Usabilidade: </br>
   • Pergunta: Quais notebooks têm recebido melhores feedbacks de profissionais que trabalham em casa? </br>
@@ -136,8 +148,10 @@ o Resposta esperada: </br>
     * Um notebook com desempenho confiável e tela grande para multitarefa e aplicativos exigentes. </br>
     * Design ergonômico e leve para fácil portabilidade e uso em diferentes ambientes da casa. </br>
     * Recursos de segurança avançados para proteger dados e privacidade. </br>
+</details> 
 
-  **RF6 - Personalização de Respostas com Base no Histórico de Conversa:** </br>
+<details>
+<summary> <strong>RF6 - Personalização de Respostas com Base no Histórico de Conversa:</strong> </summary>
 • O sistema deve ser capaz de acessar e analisar o histórico de conversas do usuário para fornecer respostas mais contextualizadas e relevantes, aprimorando a experiência do usuário ao adaptar as sugestões e informações de acordo com interações anteriores. </br>
 • Usabilidade: </br>
   • Histórico da conversa: Kit Teclado e Mouse Wireless KM636 Dell e o Notebook Dell Inspiron 15 3000 </br>
@@ -163,11 +177,9 @@ o Resposta esperada: </br>
     * **Para usuários que buscam um kit teclado e mouse confortável e confiável:** Kit Teclado e Mouse Wireless KM636 Dell </br>
     * **Para profissionais que trabalham em casa e precisam de um notebook com desempenho confiável, tela grande e design ergonômico:** Notebook Dell Inspiron 15 3000 </br>
     
-
-
 </br>
-</br>
- 
+</details> 
+
  # 💻 Requisitos Não Funcionais
  
 **RNF1 - BD Vetorial FAISS:** </br>
