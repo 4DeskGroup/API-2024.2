@@ -368,6 +368,75 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 
 
 
+<details>
+<summary> <strong>Sprint 3</strong> </summary>
+  
+
+## 🎯 MVP
+O MVP da terceira entrega permitirá que a IA forneça recomendações de produtos baseadas nas opiniões de consumidores de segmentos específicos, ajudando o funcionário do departamento de compras a tomar decisões mais direcionadas. A interface será refinada para garantir uma navegação intuitiva com uma identidade visual agradável e fácil de usar, melhorando a experiência do usuário final. Além disso, um vídeo tutorial estará disponível para orientar usuários não técnicos no uso eficiente da plataforma, garantindo acessibilidade e usabilidade para todos.
+
+  
+## 📃 Backlog da Sprint
+ 
+| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito       |
+|------|:----------:|------------|:----------:|:------:|-----------------|
+| 6    | Média      | **Recomendações de Produtos por Segmento de Pessoas**<br><br>Como um funcionário do departamento de compras, ao especificar uma categoria de produtos para um público específico, eu quero receber recomendações de produtos dessa categoria com base na tendência de opiniões de pessoas de um mesmo segmento, para que eu possa tomar decisões embasadas sobre quais produtos adquirir para esse grupo.<br> | 13         | 3      | RF2, RF5         |
+| 7    | Baixa      | **Refinamento da interface front-end**<br><br>Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável.<br>                                                                                                                           | 20         | 3      | RF1, RF2         |
+| 8    | Baixa      | **Tutorial em Vídeo**<br><br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a interface do chatbot de maneira eficiente.<br> | 2          | 3      | RNF4             |
+
+
+</br>
+
+## 📌 DOR
+ 
+### 📄 User Stories e Critérios de Aceitação
+ 
+**US #6:**  Como um funcionário do departamento de compras, ao especificar uma categoria de produtos para um público específico, eu quero receber recomendações de produtos dessa categoria com base na tendência de opiniões de pessoas de um mesmo segmento, para que eu possa tomar decisões embasadas sobre quais produtos adquirir para esse grupo.
+ 
+**Critérios de aceitação:**
+ 
+- AC1. 
+</br>
+
+**US #7:** Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável.
+ 
+**Critérios de aceitação:** </br>
+- AC1. 
+
+</br>
+
+**US #8:** Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a interface do chatbot de maneira eficiente.
+ 
+**Critérios de aceitação:**
+
+- AC1. 
+
+ 
+</br>
+
+### 📄 Protótipo - Figma
+<img src="https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/figma.jpg?raw=true">
+
+ 
+## 💾 Dados para IA
+
+Para essa entrega, os dados utilizados para construção do chat bot com IA foram a partir do repositório https://huggingface.co/datasets/ruanchaves/b2w-reviews01
+
+</br>
+
+## 🖥️ Entrega
+ 
+![Meu GIF]()
+
+### Link do vídeo no youtube
+[Assista ao vídeo da entrega no YouTube]()
+ 
+</br>
+
+</details>
+
+
+
 
 
 
