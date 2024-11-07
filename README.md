@@ -193,6 +193,9 @@ o Resposta esperada: </br>
  
 **RNF4 - Vídeo-tutorial:** </br>
 • O sistema deve incluir um vídeo-tutorial para facilitar a compreensão de seu uso e funcionalidades.
+
+**RNF5 - Interface gráfica:** </br>
+• O sistema deve incluir uma interface gráfica para auxiliar na intereção e praticidade da funcionalidades.
 </br>
 </br>
 
@@ -206,7 +209,7 @@ o Resposta esperada: </br>
 | 4    | Média      | **Histórico de Conversa**<br><br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. <br>| 13         | 2      |               RF6              |
 | 5    | Média      | **Implementação da interface front-end**<br><br>Como um funcionário do departamento de compras, quero visualizar uma interface simples de navegação para que eu tenha maior facilidade de interagir com o chat bot. <br>| 31         | 2      | RF1, RF2    |
 | 6    | Média      | **Recomendações de Produtos por Segmento de Pessoas**<br><br>Como um funcionário do departamento de compras, ao especificar uma categoria de produtos para um público específico, eu quero receber recomendações de produtos dessa categoria com base na tendência de opiniões de pessoas de um mesmo segmento, para que eu possa tomar decisões embasadas sobre quais produtos adquirir para esse grupo.<br> | 13         | 3      | RF2, RF5               |
-| 7    | Baixa      | **Refinamento da interface front-end**<br><br>Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável. <br>                                                                                                                           | 20         | 3      | RF1, RF2          |
+| 7    | Baixa      | **Refinamento da interface front-end**<br><br>Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável. <br>                                                                                                                           | 20         | 3      | RNF5          |
 | 8    | Baixa      | **Tutorial em Vídeo**<br><br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a interface do chatbot de maneira eficiente. <br>| 2          | 3      | RNF4                  |
 
 
@@ -313,7 +316,7 @@ O MVP da segunda entrega foi o desenvolvimento da IA capaz de analisar e identif
 |------|:----------:|------------|:----------:|:------:|-----------|
 | 03    | Média      | **Análise de Sentimento para Comparação de Produtos**<br><br>Como um funcionário do departamento de compras, com base nas reviews fornecidas pelos consumidores, eu quero que a IA identifique o sentimento nas reviews, como comentários positivos, negativos ou neutros, para que eu possa entender a opinião geral dos consumidores sobre um ou mais produtos e a diferença entre eles, para assim priorizar as melhores opções de compra.<br> | 13         | 2      | RF3, RF4                 |
 | 04    | Média      | **Histórico de Conversa**<br><br>Como um funcionário do departamento de compras, eu quero interagir com um chatbot que responda minhas dúvidas sobre produtos com base no banco de dados de reviews e notas (B2W) e com o auxílio do histórico das perguntas feitas por mim e respostas fornecidas pelo chat anteriormente. <br>| 13         | 2      |               RF6              |
-| 05    | Média      | **Implementação da interface front-end**<br><br>Como um funcionário do departamento de compras, quero visualizar uma interface simples de navegação para que eu tenha maior facilidade de interagir com o chat bot. <br>| 31         | 2      | RF1, RF2    |
+| 05    | Média      | **Implementação da interface front-end**<br><br>Como um funcionário do departamento de compras, quero visualizar uma interface simples de navegação para que eu tenha maior facilidade de interagir com o chat bot. <br>| 31         | 2      | RNF5    |
 
 </br>
 
@@ -393,7 +396,7 @@ O MVP da terceira entrega permitirá que a IA forneça recomendações de produt
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito       |
 |------|:----------:|------------|:----------:|:------:|-----------------|
 | 6    | Média      | **Recomendações de Produtos por Segmento de Pessoas**<br><br>Como um funcionário do departamento de compras, ao especificar uma categoria de produtos para um público específico, eu quero receber recomendações de produtos dessa categoria com base na tendência de opiniões de pessoas de um mesmo segmento, para que eu possa tomar decisões embasadas sobre quais produtos adquirir para esse grupo.<br> | 13         | 3      | RF2, RF5         |
-| 7    | Baixa      | **Refinamento da interface front-end**<br><br>Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável.<br>                                                                                                                           | 20         | 3      | RF1, RF2         |
+| 7    | Baixa      | **Refinamento da interface front-end**<br><br>Como um usuário final, quero visualizar uma interface com identidade visual definida de fácil e intuitiva navegação para que eu tenha uma experiência agradável.<br>                                                                                                                           | 20         | 3      | RNF5      |
 | 8    | Baixa      | **Tutorial em Vídeo**<br><br>Como um usuário final não técnico, eu quero acessar um vídeo tutorial, para que eu possa entender como usar a interface do chatbot de maneira eficiente.<br> | 2          | 3      | RNF4             |
 
 
