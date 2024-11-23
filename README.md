@@ -409,17 +409,13 @@ O MVP da terceira entrega permitirá que a IA forneça recomendações de produt
 **US #6:**  Como um funcionário do departamento de compras, ao especificar uma categoria de produtos para um público específico, eu quero receber recomendações de produtos dessa categoria com base na tendência de opiniões de pessoas de um mesmo segmento, para que eu possa tomar decisões embasadas sobre quais produtos adquirir para esse grupo.
  
 **Critérios de aceitação:**
- 
-- AC1. Botão de Sugestão de Perguntas:<br>				
-		Um botão deve ser adicionado ao frontend com a label "Sugestões de Perguntas", conforme design definido no Figma.			<br>
-		Ao clicar no botão, o usuário deve visualizar uma lista de perguntas mockadas, baseadas nos requisitos funcionais.			<br>
-- AC2. Perguntas Mockadas:				<br>
-		As perguntas devem ser as seguintes, com as respectivas respostas esperadas que serão apresentadas ao usuário:	<br>		
-			Pergunta 1: Quais características a Cadeira de Escritório Dot All Black mais se destacam nas avaliações?		<br>
-			Pergunta 2: Qual opção de notebook é recomendada de acordo com as reviews dos usuários?		<br>
-			Pergunta 3: Quais as principais diferenças entre os notebooks da marca Dell e os da marca Lenovo Ideapad em termos de desempenho e custo-benefício?		<br>
-			Pergunta 4: Qual a percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto?		<br>
-			Pergunta 5: Quais notebooks têm recebido melhores feedbacks de profissionais que trabalham em casa?		<br>
+ - AC1: Funcionalidade de recomendação baseada em análise de tendência de opinião
+Dado que o usuário está no sistema e especificou uma categoria de produtos para um público específico (Exemplo: Como um designer quero um notebook para trabalho, quais são os melhores para meu caso?), o sistema deve fornecer uma recomendação clara de produto com base nas tendências e preferências identificadas (Recomendação de pelo menos um Notebook para designers baseado em comentários de designers).
+
+- AC2: Justificativa da recomendação
+Dado que o sistema recomendou um produto, quando o usuário visualizar a recomendação, então a recomendação deve ser acompanhada de uma justificativa detalhada que explique a escolha, incluindo:
+Feedbacks de usuários no segmento especificado, características adequadas que atendem ao público-alvo e considerações de tendências de consumo e preferências do grupo.
+
 
 			
 </br>
@@ -427,12 +423,17 @@ O MVP da terceira entrega permitirá que a IA forneça recomendações de produt
 **US #7:** Como um usuário do sistema, eu quero ter acesso a um botão que sugira perguntas mockadas, para que eu possa me basear nas informações do sistema e entender melhor como utilizar o chat para tirar dúvidas sobre produtos.
  
 **Critérios de aceitação:** </br>
-- AC1: Funcionalidade de recomendação baseada em análise de tendência de opinião
-Dado que o usuário está no sistema e especificou uma categoria de produtos para um público específico (Exemplo: Como um designer quero um notebook para trabalho, quais são os melhores para meu caso?), o sistema deve fornecer uma recomendação clara de produto com base nas tendências e preferências identificadas (Recomendação de pelo menos um Notebook para designers baseado em comentários de designers).
 
-- AC2: Justificativa da recomendação
-Dado que o sistema recomendou um produto, quando o usuário visualizar a recomendação, então a recomendação deve ser acompanhada de uma justificativa detalhada que explique a escolha, incluindo:
-Feedbacks de usuários no segmento especificado, características adequadas que atendem ao público-alvo e considerações de tendências de consumo e preferências do grupo.
+- AC1. Botão de Sugestão de Perguntas:<br>				
+		Um botão deve ser adicionado ao frontend com a label "Sugestões de Perguntas", conforme design definido no Figma.			<br>
+		Ao clicar no botão, o usuário deve visualizar uma lista de perguntas mockadas, baseadas nos requisitos funcionais.			<br>
+- AC2. Perguntas Mockadas:				<br>
+		As perguntas devem ser baseadas de acordo com os requisitos funcionais, devendo conter 50 perguntas que serão apresentadas ao usuário 5 dessas perguntas de forma aleatória. Exemploas com as respectivas perguntas e respostas esperadas que serão apresentadas ao usuário:	<br>		
+			Pergunta 1: Quais características a Cadeira de Escritório Dot All Black mais se destacam nas avaliações?		<br>
+			Pergunta 2: Qual opção de notebook é recomendada de acordo com as reviews dos usuários?		<br>
+			Pergunta 3: Quais as principais diferenças entre os notebooks da marca Dell e os da marca Lenovo Ideapad em termos de desempenho e custo-benefício?		<br>
+			Pergunta 4: Qual a percepção geral dos usuários sobre o Kit Teclado e Mouse Wireless KM636 Dell em termos de conforto?		<br>
+			Pergunta 5: Quais notebooks têm recebido melhores feedbacks de profissionais que trabalham em casa?		<br>
 
 </br>
 
@@ -441,7 +442,7 @@ Feedbacks de usuários no segmento especificado, características adequadas que 
 **Critérios de aceitação:**
 
 - AC1. O vídeo deve cobrir todos os aspectos fundamentais do uso da interface do chatbot.
-- AC2. O vídeo deve ter uma duração máxima de 5 minutos.
+- AC2. O vídeo deve ter uma duração máxima de 3 minutos.
 - AC3. O vídeo deve ser publicado em uma plataforma acessível a todos os usuários finais. 
 
  
