@@ -463,8 +463,8 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 [Assista ao vídeo do tutorial no YouTube](https://youtu.be/Yzo6zup9Mxg?si=uh-asarPQKFxIEXY)
 
 ## 🖥️ Entrega
- 
-![Meu GIF]()
+
+![Meu GIF](https://github.com/4DeskGroup/API-2024.2/blob/main/docs%20sprints/sprint-3-entrega.gif)
 
 ### Link do vídeo no youtube
 [Assista ao vídeo da entrega no YouTube](https://youtu.be/VvczQxSXH4w?si=WqYL17PQ2BzY9ctn)
