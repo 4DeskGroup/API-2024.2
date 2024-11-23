@@ -458,10 +458,7 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 
 </br>
 
-## 🖥️ Tutorial
 
-### Link do vídeo no youtube do tutorial
-[Assista ao vídeo do tutorial no YouTube](https://youtu.be/Yzo6zup9Mxg?si=uh-asarPQKFxIEXY)
 
 ## 🖥️ Entrega
 
@@ -475,7 +472,12 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 </details>
 
 
+## 🖥️ Tutorial
 
+### Link do vídeo no youtube do tutorial
+[Assista ao vídeo do tutorial no YouTube](https://youtu.be/Yzo6zup9Mxg?si=uh-asarPQKFxIEXY)
+
+</br>
 
 
 
