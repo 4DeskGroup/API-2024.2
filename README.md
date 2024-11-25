@@ -473,6 +473,7 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 
 
 <div name="tutorial"></div>
+
 ## 🖥️ Tutorial
 
 ### Link do vídeo no youtube do tutorial
