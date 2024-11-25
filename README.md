@@ -21,7 +21,7 @@
 
 <div align="center">
  
- [Informações e Proposta do projeto](https://github.com/4DeskGroup/API-2024.2#proposta) • [Backlog](https://github.com/4DeskGroup/API-2024.2#backlog) • [Entregas](https://github.com/4DeskGroup/API-2024.2#entregas) • [Tecnologias](https://github.com/4DeskGroup/API-2024.2#tecnologias) • [Equipe](https://github.com/4DeskGroup/API-2024.2#equipe)
+ [Informações e Proposta do projeto](https://github.com/4DeskGroup/API-2024.2#proposta) • [Backlog](https://github.com/4DeskGroup/API-2024.2#backlog) • [Entregas](https://github.com/4DeskGroup/API-2024.2#entregas) • [Tecnologias](https://github.com/4DeskGroup/API-2024.2#tecnologias) • [Vídeo Tutorial](https://github.com/4DeskGroup/API-2024.2#tutorial) • [Equipe](https://github.com/4DeskGroup/API-2024.2#equipe)
 </div>
 
 <div name="proposta"></div>
@@ -472,6 +472,7 @@ Para essa entrega, os dados utilizados para construção do chat bot com IA fora
 </details>
 
 
+<div name="tutorial"></div>
 ## 🖥️ Tutorial
 
 ### Link do vídeo no youtube do tutorial
